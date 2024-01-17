@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="bp.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1028">
+      <stop
+         style="stop-color:#dbde00;stop-opacity:1;"
+         offset="0"
+         id="stop1024" />
+      <stop
+         style="stop-color:#dbde00;stop-opacity:0;"
+         offset="1"
+         id="stop1026" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1004">
+      <stop
+         style="stop-color:#d7eef4;stop-opacity:1;"
+         offset="0"
+         id="stop1000" />
+      <stop
+         style="stop-color:#d7eef4;stop-opacity:0;"
+         offset="1"
+         id="stop1002" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient976"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop974" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1004"
+       id="linearGradient1006"
+       x1="-253.97109"
+       y1="-1435.9788"
+       x2="-96.911647"
+       y2="-1435.9788"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1028"
+       id="linearGradient1030"
+       x1="-250.25508"
+       y1="-1412.7384"
+       x2="-99.559199"
+       y2="-1412.7384"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.22627416"
+     inkscape:cx="-1253.3215"
+     inkscape:cy="5585.7884"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:window-width="1880"
+     inkscape:window-height="1016"
+     inkscape:window-x="40"
+     inkscape:window-y="40"
+     inkscape:window-maximized="1"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="-112.25321,1466.3075"
+       orientation="0,1"
+       id="guide4851"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-963.08335,710.59525"
+       orientation="0,1"
+       id="guide4853"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="191.82292,1142.6693"
+       orientation="0,1"
+       id="guide4855"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-1419.6786,137.58334"
+       orientation="0,1"
+       id="guide4857"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-2130.2738,427.86907"
+       orientation="1,0"
+       id="guide4859"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-1201.9643,247.95238"
+       orientation="1,0"
+       id="guide4861"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-1138.4643,456.59526"
+       orientation="0,1"
+       id="guide4958"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-760.48809,925.28575"
+       orientation="0,1"
+       id="guide4960"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-730.24999,539.75002"
+       orientation="0,1"
+       id="guide4962"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-1522.4881,420.30954"
+       orientation="1,0"
+       id="guide4964"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-1395.4881,312.9643"
+       orientation="1,0"
+       id="guide4966"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-1360.7143,261.55953"
+       orientation="1,0"
+       id="guide4968"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-1235.2262,216.20239"
+       orientation="1,0"
+       id="guide4970"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-1073.4524,176.89286"
+       orientation="1,0"
+       id="guide4972"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-312.78887,514.49384"
+       orientation="0,1"
+       id="guide5127"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:url(#linearGradient1030);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -250.2311,-1414.8614 144.55524,-23.2399 5.983485,24.9947 -1.452435,25.7239 z"
+       id="path984"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <path
+       style="fill:#fff6d5;stroke:#ffffc5;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -563.01999,-1337.6873 312.78889,-77.1741"
+       id="path972"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <path
+       style="fill:#aaeeff;stroke:none;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 278.87906,-1314.8859 v 13.1547 l -378.269918,-93.252 0.348811,-8.3682 z"
+       id="path996"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <path
+       style="fill:#e9afaf;stroke:none;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -105.67586,-1438.1013 383.97027,62.4116 1.75395,16.3703 -383.09329,-70.7429 -2.63093,-8.039"
+       id="path988"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <path
+       style="fill:#ffccaa;stroke:none;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -103.04493,-1430.0623 2.48477,9.7929 380.02387,73.8123 0.58465,-12.8623 z"
+       id="path990"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <path
+       style="fill:#ffeeaa;stroke:none;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 279.46371,-1346.4571 v 16.9549 l -379.156084,-83.6044 -0.867786,-7.1628 380.02387,73.8123"
+       id="path992"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <path
+       style="fill:#f6ffd5;stroke:none;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 279.46371,-1329.5022 -0.58465,14.6163 -377.921107,-88.4655 -0.650324,-9.7552 z"
+       id="path994"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <path
+       style="fill:#aaaaff;stroke:none;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 278.87906,-1301.7312 0.29231,17.2472 -380.31618,-102.8987 1.753952,-7.6005 z"
+       id="path998"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <path
+       style="opacity:1;fill:#cccccc;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -2100.2906,-285.94726 c 0.4363,0.75383 0.9099,1.5002 1.4129,2.25483 0.4145,0.62173 1.1894,1.29939 2.2823,2.00655 4.811,4.24667 12.9924,7.35207 30.0999,9.86169 29.1809,0.34587 61.3265,-1.29708 82.3255,-13.73077 43.9886,-27.19467 13.5656,-76.15152 13.5656,-76.15152 0,0 -27.186,-50.82477 -72.7315,-26.32691 -23.4499,16.38583 -43.2608,40.32447 -53.054,64.43057 -6.381,16.07205 -7.7822,24.71012 -6.5093,31.00004 0.066,1.29911 0.2654,2.30839 0.5964,2.97789 0.5203,1.05231 1.0547,2.05319 1.6379,3.00886 0.1214,0.22416 0.2462,0.44638 0.3745,0.66867 z"
+       id="path917"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#b3b3b3;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1997.164,-348.94634 c 1.1982,2.06931 2.563,4.1665 4.0332,6.57537 0.1276,0.20692 0.2866,0.37343 0.4739,0.50414 2.2539,3.31949 5.0705,6.30576 9.8478,9.39685 8.9294,5.7777 9.5803,-1.46305 12.1831,-5.76263 2.6028,-4.29953 38.7692,-21.3668 38.7692,-21.3668 l -6.3068,-17.97069 c -2.1566,-5.9998 -9.452,-11.90789 -14.8653,-18.21006 0,0 -32.8639,22.78744 -37.8888,22.89176 -5.025,0.10431 -11.6211,-2.95237 -11.0822,7.66957 0.3706,7.30258 2.1999,11.71999 4.8358,16.27253 z"
+       id="path899"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccscccccss"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1954.8527,-370.35861 a 60.773428,33.029038 60 0 0 57.9212,36.6091 l 0.072,0.12386 14.2932,-8.25218 -3.5081,-6.07622 a 60.773428,33.029038 60 0 0 -11.5696,-55.43373 60.773428,33.029038 60 0 0 -42.2167,-37.72683 l -3.5847,-6.20898 -14.2932,8.25217 0.1264,0.21901 a 60.773428,33.029038 60 0 0 2.76,68.49379 z"
+       id="path879-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <ellipse
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879"
+       cx="1298.2688"
+       cy="-1460.3396"
+       rx="60.773426"
+       ry="33.029037"
+       transform="rotate(-120)"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <ellipse
+       style="opacity:1;fill:#ffd5d5;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-3"
+       cx="1298.489"
+       cy="-1458.9681"
+       rx="51.305103"
+       ry="27.883211"
+       transform="rotate(-120)"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#cccccc;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -2081.2068,-80.661178 c 0.4362,0.75388 0.9099,1.5002 1.4129,2.25483 0.4145,0.62173 1.1894,1.29939 2.2823,2.00655 4.811,4.24667 12.9924,7.35207 30.0999,9.8617 29.1808,0.34587 61.3265,-1.29709 82.3255,-13.73078 43.9886,-27.194672 13.5656,-76.151532 13.5656,-76.151532 0,0 -27.186,-50.82475 -72.7315,-26.32691 -23.4499,16.38584 -43.2608,40.32448 -53.054,64.43058 -6.381,16.07205 -7.7822,24.710122 -6.5093,31.000042 0.066,1.29911 0.2654,2.30839 0.5964,2.97789 0.5203,1.05231 1.0547,2.05319 1.6379,3.00886 0.1213,0.22416 0.2462,0.44638 0.3745,0.66868 z"
+       id="path917-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#b3b3b3;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1978.0802,-143.66026 c 1.1982,2.06931 2.563,4.1665 4.0332,6.57537 0.1276,0.20692 0.2866,0.37344 0.4739,0.50414 2.2539,3.31949 5.0705,6.30576 9.8478,9.39684 8.9294,5.77771 9.5803,-1.46304 12.1831,-5.76261 2.6028,-4.29954 38.7692,-21.36681 38.7692,-21.36681 l -6.3068,-17.9707 c -2.1566,-5.9998 -9.452,-11.90789 -14.8653,-18.21005 0,0 -32.8639,22.78744 -37.8888,22.89175 -5.025,0.10431 -11.6211,-2.95237 -11.0822,7.66958 0.3705,7.30258 2.1999,11.71998 4.8358,16.27253 z"
+       id="path899-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccscccccss"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1935.7689,-165.07253 a 60.773429,33.029038 60 0 0 57.9212,36.6091 l 0.072,0.12386 14.2932,-8.25218 -3.5081,-6.07623 a 60.773429,33.029038 60 0 0 -11.5696,-55.43372 60.773429,33.029038 60 0 0 -42.2167,-37.72683 l -3.5847,-6.20899 -14.2932,8.25218 0.1264,0.21901 a 60.773429,33.029038 60 0 0 2.76,68.49378 z"
+       id="path879-6-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <ellipse
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-9"
+       cx="1110.9438"
+       cy="-1546.4556"
+       rx="60.773426"
+       ry="33.029037"
+       transform="rotate(-120)"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <ellipse
+       style="opacity:1;fill:#80e5ff;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-3-1"
+       cx="1111.1641"
+       cy="-1545.0841"
+       rx="51.305103"
+       ry="27.883211"
+       transform="rotate(-120)"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#cccccc;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -2069.5636,130.0266 c 0.4362,0.75388 0.9099,1.50021 1.4129,2.25482 0.4145,0.62174 1.1894,1.29939 2.2823,2.00657 4.811,4.24667 12.9923,7.35206 30.0999,9.86169 29.1808,0.34586 61.3265,-1.2971 82.3255,-13.73077 43.9886,-27.19467 13.5656,-76.151543 13.5656,-76.151543 0,0 -27.186,-50.8247635 -72.7316,-26.3269 -23.4498,16.38583 -43.2607,40.32448 -53.0539,64.43057 -6.381,16.072053 -7.7823,24.710123 -6.5094,31.000053 0.066,1.29911 0.2655,2.30838 0.5965,2.97789 0.5203,1.05229 1.0547,2.05318 1.6379,3.00885 0.1213,0.22416 0.2461,0.44637 0.3745,0.66867 z"
+       id="path917-5-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#b3b3b3;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1966.437,67.027517 c 1.1981,2.06931 2.563,4.1665 4.0332,6.57537 0.1276,0.20693 0.2866,0.37344 0.4739,0.50413 2.2539,3.31951 5.0705,6.30577 9.8477,9.39686 8.9295,5.7777 9.5803,-1.46305 12.1832,-5.76263 2.6027,-4.29954 38.7692,-21.3668 38.7692,-21.3668 l -6.3068,-17.97069 c -2.1566,-5.9998 -9.452,-11.90791 -14.8653,-18.21007 0,0 -32.8639,22.78745 -37.8888,22.89176 -5.025,0.1043 -11.6211,-2.95236 -11.0822,7.66957 0.3705,7.30259 2.1999,11.72 4.8358,16.27253 z"
+       id="path899-6-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccscccccss"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1924.1257,45.615247 a 60.773429,33.029038 60 0 0 57.9212,36.6091 l 0.072,0.12385 14.2932,-8.25217 -3.5081,-6.07624 a 60.773429,33.029038 60 0 0 -11.5696,-55.433723 60.773429,33.029038 60 0 0 -42.2167,-37.72683 l -3.5848,-6.20898 -14.2932,8.25217 0.1265,0.21898 a 60.773429,33.029038 60 0 0 2.76,68.493783 z"
+       id="path879-6-2-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <ellipse
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-9-9"
+       cx="922.66138"
+       cy="-1641.7161"
+       rx="60.773426"
+       ry="33.029037"
+       transform="rotate(-120)"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <ellipse
+       style="opacity:1;fill:#aaffcc;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-3-1-3"
+       cx="922.88159"
+       cy="-1640.3447"
+       rx="51.305103"
+       ry="27.883211"
+       transform="rotate(-120)"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#cccccc;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1139.2073,-409.57206 c -0.871,7.4e-4 -1.7542,0.0379 -2.6592,0.0962 -0.7457,0.0481 -1.72,0.38027 -2.8789,0.97325 -6.0832,2.04303 -12.8632,7.57562 -23.5904,21.13643 -14.8899,25.09838 -29.54,53.75885 -29.2716,78.16136 1.5571,51.6925 59.1664,49.82384 59.1664,49.82384 0,0 57.6086,1.86861 59.1656,-49.82388 -2.4657,-28.50103 -13.2917,-57.62719 -29.2716,-78.16131 -10.7283,-13.56222 -17.5084,-19.09472 -23.5921,-21.13733 -1.1581,-0.59239 -2.1318,-0.92434 -2.8772,-0.97235 -1.1714,-0.0756 -2.3055,-0.1132 -3.4247,-0.0861 -0.2548,-0.007 -0.5096,-0.01 -0.7663,-0.01 z"
+       id="path917-5-2-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#b3b3b3;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1136.2118,-288.76234 c -2.3911,0.003 -4.8898,0.13645 -7.7111,0.20525 -0.243,0.007 -0.4667,0.0615 -0.6734,0.15826 -4.0018,0.29226 -7.9963,1.23829 -13.0619,3.83001 -9.4683,4.84424 -3.5231,9.02831 -1.1009,13.43219 2.4221,4.40386 -0.8805,44.2586 -0.8805,44.2586 l 18.7165,3.52341 c 6.2743,1.13222 15.0385,-2.23163 23.2031,-3.76869 0,0 -3.3026,-39.8547 -0.8805,-44.25855 2.4221,-4.40384 8.3673,-8.5879 -1.101,-13.43216 -6.5094,-3.33043 -11.2497,-3.95483 -16.5103,-3.94834 z"
+       id="path899-6-7-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccscccccss"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1138.8239,-241.41346 a 60.773429,33.029038 0 0 0 -60.665,31.85668 l -0.1433,4.3e-4 v 16.50436 l 7.0163,-7e-5 a 60.773429,33.029038 0 0 0 53.7918,17.69729 60.773429,33.029038 0 0 0 53.7807,-17.69723 l 7.1696,-3e-5 v -16.50437 l -0.2529,6e-5 a 60.773429,33.029038 0 0 0 -60.6974,-31.85666 z"
+       id="path879-6-2-0-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <ellipse
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-9-9-2"
+       cx="-1138.7216"
+       cy="-193.98033"
+       rx="60.773426"
+       ry="33.029037"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <ellipse
+       style="opacity:1;fill:#ffeeaa;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-3-1-3-6"
+       cx="-1138.5013"
+       cy="-192.60887"
+       rx="51.305103"
+       ry="27.883211"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#cccccc;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -184.35365,-675.92071 c -0.87093,8e-4 -1.75412,0.038 -2.65923,0.096 -0.74556,0.048 -1.71999,0.3803 -2.8788,0.9732 -6.08324,2.0431 -12.8633,7.57569 -23.59041,21.1364 -14.88997,25.0984 -29.54001,53.75899 -29.27158,78.1614 1.55698,51.6925 59.16644,49.82379 59.16644,49.82379 0,0 57.60845,1.86871 59.16549,-49.82369 -2.46563,-28.5012 -13.29161,-57.6272 -29.27151,-78.16141 -10.72833,-13.56219 -17.50853,-19.09469 -23.59223,-21.13729 -1.15808,-0.59241 -2.13177,-0.9243 -2.87708,-0.9724 -1.17148,-0.076 -2.30549,-0.1132 -3.42471,-0.086 -0.25478,-0.01 -0.5097,-0.01 -0.76638,-0.01 z"
+       id="path917-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <path
+       style="opacity:1;fill:#b3b3b3;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -181.35815,-555.1109 c -2.39112,0 -4.88978,0.1363 -7.71099,0.2052 -0.24303,0.01 -0.46672,0.061 -0.67353,0.15829 -4.0017,0.2922 -7.99623,1.2383 -13.06184,3.83001 -9.46832,4.84429 -3.52312,9.02829 -1.10097,13.4322 2.42213,4.40379 -0.88044,44.25849 -0.88044,44.25849 l 18.71653,3.52351 c 6.27422,1.13219 15.03853,-2.2317 23.203,-3.7687 0,0 -3.30258,-39.8547 -0.88045,-44.25861 2.4222,-4.40379 8.36738,-8.58789 -1.10089,-13.4322 -6.50954,-3.33029 -11.24984,-3.9548 -16.51042,-3.94819 z"
+       id="path899-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccscccccss"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <path
+       style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -183.97025,-507.7621 a 60.773429,33.029038 0 0 0 -60.66495,31.85659 l -0.14328,4.2e-4 3e-5,16.50439 h 7.01621 a 60.773429,33.029038 0 0 0 53.79185,17.6973 60.773429,33.029038 0 0 0 53.78071,-17.69739 l 7.16954,-1e-5 -3e-5,-16.5044 -0.25291,1.1e-4 a 60.773429,33.029038 0 0 0 -60.6973,-31.85671 z"
+       id="path879-6-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <ellipse
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-92"
+       cx="-183.86784"
+       cy="-460.32901"
+       rx="60.773426"
+       ry="33.029037"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <ellipse
+       style="opacity:1;fill:#eeffaa;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-3-0"
+       cx="-183.64763"
+       cy="-458.95767"
+       rx="51.305103"
+       ry="27.883211"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <path
+       style="opacity:1;fill:#1a1a1a;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1456.2469,-460.90699 c 0.871,-7.5e-4 1.7542,-0.038 2.6592,-0.096 0.7457,-0.048 1.72,-0.38031 2.8789,-0.97323 6.0832,-2.04309 12.8632,-7.57564 23.5904,-21.13647 14.8899,-25.09841 29.54,-53.75882 29.2716,-78.16128 -1.557,-51.69263 -59.1664,-49.82391 -59.1664,-49.82391 0,0 -57.6086,-1.86865 -59.1656,49.82389 2.4657,28.50107 13.2917,57.62712 29.2716,78.16127 10.7283,13.56222 17.5084,19.0947 23.5921,21.13733 1.1581,0.59229 2.1319,0.92433 2.8772,0.97241 1.1714,0.076 2.3054,0.1132 3.4247,0.086 0.2548,0.01 0.5096,0.01 0.7663,0.01 z"
+       id="path917-1-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#333333;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1459.2424,-581.71675 c 2.3911,-4e-5 4.8898,-0.13644 7.711,-0.2052 0.243,-0.01 0.4667,-0.062 0.6735,-0.15835 4.0018,-0.29214 7.9963,-1.23827 13.0619,-3.82998 9.4682,-4.84422 3.523,-9.02832 1.1009,-13.43216 -2.4221,-4.40389 0.8805,-44.25864 0.8805,-44.25864 l -18.7165,-3.52341 c -6.2743,-1.13221 -15.0387,2.23171 -23.2031,3.76869 0,0 3.3026,39.85476 0.8805,44.25851 -2.4223,4.4039 -8.3674,8.58801 1.101,13.43226 6.5094,3.33045 11.2497,3.95484 16.5103,3.94833 z"
+       id="path899-8-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccscccccss"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1456.6304,-629.0656 a 60.773429,33.029038 0 0 0 60.6651,-31.85666 l 0.143,-10e-6 v -16.5043 h -7.0162 a 60.773429,33.029038 0 0 0 -53.7918,-17.69728 60.773429,33.029038 0 0 0 -53.7808,17.69729 h -7.1695 v 16.50442 l 0.2528,-3e-5 a 60.773429,33.029038 0 0 0 60.6973,31.85667 z"
+       id="path879-6-7-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <ellipse
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-92-5"
+       cx="1456.7327"
+       cy="676.49884"
+       rx="60.773426"
+       ry="33.029037"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898"
+       transform="scale(-1)" />
+    <ellipse
+       style="opacity:1;fill:#ffeeaa;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-3-0-9"
+       cx="1458.4648"
+       cy="677.8703"
+       rx="51.305103"
+       ry="27.883211"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898"
+       transform="scale(-1)" />
+    <path
+       style="opacity:1;fill:#1a1a1a;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1297.6681,-461.96622 c 0.871,-7.3e-4 1.7542,-0.0379 2.6592,-0.096 0.7456,-0.0481 1.72,-0.38035 2.8789,-0.97323 6.0832,-2.04312 12.8631,-7.57574 23.5904,-21.13646 14.8899,-25.0984 29.54,-53.75881 29.2716,-78.16125 -1.557,-51.69267 -59.1664,-49.82393 -59.1664,-49.82393 0,0 -57.6086,-1.86862 -59.1656,49.82385 2.4656,28.50109 13.2916,57.62704 29.2716,78.16133 10.7282,13.56215 17.5084,19.09471 23.5921,21.13731 1.1581,0.5923 2.1318,0.9242 2.8772,0.97238 1.1714,0.076 2.3054,0.11316 3.4247,0.086 0.2547,0.01 0.5096,0.01 0.7663,0.01 z"
+       id="path917-1-2-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#333333;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1300.6636,-582.77594 c 2.391,-1.2e-4 4.8898,-0.13645 7.711,-0.20528 0.2429,-0.01 0.4666,-0.062 0.6735,-0.15829 4.0018,-0.29213 7.9963,-1.23831 13.0618,-3.83003 9.4684,-4.84415 3.5231,-9.02831 1.101,-13.43214 -2.4221,-4.40387 0.8805,-44.25866 0.8805,-44.25866 l -18.7166,-3.52339 c -6.2743,-1.13223 -15.0386,2.23173 -23.203,3.76875 0,0 3.3026,39.8547 0.8805,44.25847 -2.4224,4.40387 -8.3675,8.58797 1.1009,13.43218 6.5094,3.3305 11.2498,3.9549 16.5104,3.94843 z"
+       id="path899-8-3-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccscccccss"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1298.0515,-630.1248 a 60.773429,33.029038 0 0 0 60.665,-31.8567 l 0.1432,4.4e-4 v -16.50427 h -7.0162 a 60.773429,33.029038 0 0 0 -53.7917,-17.6973 60.773429,33.029038 0 0 0 -53.7809,17.6973 l -7.1695,-4e-5 v 16.50439 l 0.2528,-10e-6 a 60.773429,33.029038 0 0 0 60.6974,31.85669 z"
+       id="path879-6-7-7-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <ellipse
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-92-5-4"
+       cx="1298.1538"
+       cy="677.55811"
+       rx="60.773426"
+       ry="33.029037"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898"
+       transform="scale(-1)" />
+    <ellipse
+       style="opacity:1;fill:#ffeeaa;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-3-0-9-7"
+       cx="1299.886"
+       cy="678.92957"
+       rx="51.305103"
+       ry="27.883211"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898"
+       transform="scale(-1)" />
+    <path
+       style="opacity:1;fill:#1a1a1a;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1136.1829,-461.97623 c 0.871,-8e-4 1.7543,-0.0379 2.6592,-0.096 0.7457,-0.0481 1.72,-0.38034 2.8789,-0.97322 6.0832,-2.04312 12.8632,-7.57574 23.5904,-21.13646 14.8899,-25.0984 29.54,-53.75882 29.2716,-78.16132 -1.557,-51.69261 -59.1664,-49.82386 -59.1664,-49.82386 0,0 -57.6086,-1.86862 -59.1656,49.82385 2.4657,28.50108 13.2916,57.62704 29.2716,78.16133 10.7283,13.56215 17.5084,19.0947 23.5921,21.1373 1.1581,0.59231 2.1319,0.92421 2.8772,0.97238 1.1714,0.076 2.3054,0.11326 3.4247,0.086 0.2548,0.01 0.5096,0.01 0.7663,0.01 z"
+       id="path917-1-2-3-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#333333;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1139.1783,-582.78594 c 2.391,-1.3e-4 4.8897,-0.13646 7.7109,-0.20528 0.243,-0.01 0.4667,-0.062 0.6736,-0.1583 4.0017,-0.2922 7.9962,-1.23831 13.0618,-3.83003 9.4683,-4.84415 3.5231,-9.0283 1.1009,-13.43213 -2.4221,-4.40394 0.8805,-44.25867 0.8805,-44.25867 l -18.7165,-3.52339 c -6.2743,-1.13223 -15.0387,2.23173 -23.2031,3.76876 0,0 3.3026,39.85463 0.8805,44.25846 -2.4223,4.40387 -8.3674,8.58798 1.101,13.43218 6.5094,3.3305 11.2497,3.9549 16.5103,3.94843 z"
+       id="path899-8-3-1-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccscccccss"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1136.5663,-630.13481 a 60.773429,33.029038 0 0 0 60.665,-31.8567 l 0.1433,4.4e-4 v -16.50426 h -7.0162 a 60.773429,33.029038 0 0 0 -53.7918,-17.6973 60.773429,33.029038 0 0 0 -53.7808,17.6973 l -7.1695,-5e-5 -10e-5,16.50439 0.2528,-10e-6 a 60.773429,33.029038 0 0 0 60.6974,31.85669 z"
+       id="path879-6-7-7-9-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <ellipse
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-92-5-4-0"
+       cx="1136.6687"
+       cy="677.56824"
+       rx="60.773426"
+       ry="33.029037"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898"
+       transform="scale(-1)" />
+    <ellipse
+       style="opacity:1;fill:#ffeeaa;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-3-0-9-7-3"
+       cx="1138.4009"
+       cy="678.9397"
+       rx="51.305103"
+       ry="27.883211"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898"
+       transform="scale(-1)" />
+    <path
+       style="opacity:1;fill:#1a1a1a;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1457.9308,-409.57178 c -0.871,8e-4 -1.7542,0.038 -2.6592,0.096 -0.7457,0.048 -1.72,0.3803 -2.8789,0.9732 -6.0832,2.0431 -12.8632,7.5757 -23.5904,21.1365 -14.8899,25.0984 -29.54,53.7587 -29.2716,78.1612 1.557,51.6926 59.1664,49.8239 59.1664,49.8239 0,0 57.6086,1.8686 59.1656,-49.8239 -2.4657,-28.5011 -13.2917,-57.627 -29.2716,-78.1612 -10.7283,-13.5622 -17.5084,-19.0947 -23.5921,-21.1373 -1.1581,-0.5923 -2.1319,-0.9243 -2.8772,-0.9724 -1.1714,-0.076 -2.3054,-0.1132 -3.4247,-0.086 -0.2548,-0.01 -0.5096,-0.01 -0.7663,-0.01 z"
+       id="path917-1-2-3-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#333333;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1454.9353,-288.76208 c -2.3911,0 -4.8898,0.1364 -7.711,0.2052 -0.243,0.01 -0.4667,0.062 -0.6736,0.1583 -4.0017,0.2922 -7.9962,1.2383 -13.0618,3.83 -9.4683,4.8442 -3.5231,9.0283 -1.1009,13.4322 2.4221,4.4039 -0.8805,44.2586 -0.8805,44.2586 l 18.7165,3.5234 c 6.2743,1.1322 15.0387,-2.2317 23.2031,-3.7687 0,0 -3.3026,-39.8547 -0.8805,-44.2585 2.4223,-4.4039 8.3674,-8.588 -1.101,-13.4322 -6.5094,-3.3305 -11.2497,-3.9549 -16.5103,-3.9484 z"
+       id="path899-8-3-1-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccscccccss"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1457.5474,-241.41328 a 60.773429,33.029038 0 0 0 -60.665,31.8567 h -0.143 v 16.5043 h 7.0162 a 60.773429,33.029038 0 0 0 53.7918,17.6973 60.773429,33.029038 0 0 0 53.7808,-17.6973 h 7.1695 v -16.5044 h -0.2528 a 60.773429,33.029038 0 0 0 -60.6974,-31.8567 z"
+       id="path879-6-7-7-9-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <ellipse
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-92-5-4-6"
+       cx="-1457.4449"
+       cy="-193.97995"
+       rx="60.773426"
+       ry="33.029037"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <ellipse
+       style="opacity:1;fill:#ffeeaa;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-3-0-9-7-32"
+       cx="-1455.7128"
+       cy="-192.60849"
+       rx="51.305103"
+       ry="27.883211"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#1a1a1a;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1296.1569,-409.57188 c -0.871,8e-4 -1.7542,0.038 -2.6592,0.096 -0.7457,0.048 -1.72,0.3803 -2.8789,0.9732 -6.0832,2.0431 -12.8632,7.5757 -23.5904,21.1365 -14.8899,25.0984 -29.54,53.7588 -29.2716,78.1613 1.557,51.6926 59.1664,49.8239 59.1664,49.8239 0,0 57.6086,1.8686 59.1656,-49.8239 -2.4657,-28.5011 -13.2917,-57.6271 -29.2716,-78.1613 -10.7283,-13.5622 -17.5084,-19.0947 -23.5921,-21.1373 -1.1581,-0.5923 -2.1319,-0.9243 -2.8772,-0.9724 -1.1714,-0.076 -2.3054,-0.1132 -3.4247,-0.086 -0.2548,-0.01 -0.5096,-0.01 -0.7663,-0.01 z"
+       id="path917-1-2-3-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#333333;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1293.1614,-288.76208 c -2.3911,0 -4.8898,0.1364 -7.711,0.2052 -0.243,0.01 -0.4667,0.062 -0.6736,0.1583 -4.0017,0.2922 -7.9962,1.2383 -13.0618,3.83 -9.4683,4.8442 -3.5231,9.0283 -1.1009,13.4322 2.4221,4.4039 -0.8805,44.2586 -0.8805,44.2586 l 18.7165,3.5234 c 6.2743,1.1322 15.0387,-2.2317 23.2031,-3.7687 0,0 -3.3026,-39.8547 -0.8805,-44.2585 2.4223,-4.4039 8.3674,-8.588 -1.101,-13.4322 -6.5094,-3.3305 -11.2497,-3.9549 -16.5103,-3.9484 z"
+       id="path899-8-3-1-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccscccccss"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1295.7735,-241.41328 a 60.773429,33.029038 0 0 0 -60.665,31.8567 h -0.143 v 16.5043 h 7.0162 a 60.773429,33.029038 0 0 0 53.7918,17.6973 60.773429,33.029038 0 0 0 53.7808,-17.6973 h 7.1695 v -16.5044 h -0.2528 a 60.773429,33.029038 0 0 0 -60.6974,-31.8567 z"
+       id="path879-6-7-7-9-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <ellipse
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-92-5-4-5"
+       cx="-1295.671"
+       cy="-193.97993"
+       rx="60.773426"
+       ry="33.029037"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <ellipse
+       style="opacity:1;fill:#ffeeaa;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-3-0-9-7-5"
+       cx="-1293.9388"
+       cy="-192.60847"
+       rx="51.305103"
+       ry="27.883211"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#cccccc;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 6.6356958,-655.39854 c -0.8414608,-0.22464 -1.7041798,-0.41729 -2.5934607,-0.59553 -0.73258,-0.1466 -1.759811,-0.0778 -3.03259,0.19495 -6.4047504,0.39904 -14.3857311,3.9883 -28.2570951,14.31056 -20.878535,20.38939 -42.447298,44.28168 -48.503825,67.92207 -11.875054,50.3341 44.255039,63.43949 44.255039,63.43949 0,0 55.161828,16.7152 70.0448,-32.81283 4.995033,-28.1682 2.076302,-59.10374 -8.044451,-83.07415 -6.852621,-15.87677 -11.969869,-22.97561 -17.317609,-26.52319 -0.965292,-0.87194 -1.819911,-1.44453 -2.527369,-1.68389 -1.1118932,-0.37662 -2.1976412,-0.70605 -3.2857612,-0.96946 -0.243509,-0.0756 -0.48974,-0.14157 -0.737681,-0.20801 z"
+       id="path917-1-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <path
+       style="opacity:1;fill:#b3b3b3;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -21.738753,-537.92993 c -2.309638,-0.61888 -4.75844,-1.13391 -7.501349,-1.79754 -0.23733,-0.0532 -0.466607,-0.0619 -0.691549,-0.0214 -3.940972,-0.75346 -8.044262,-0.87346 -13.608051,0.31885 -10.399488,2.22866 -5.739759,7.80881 -4.539959,12.68956 1.199808,4.88064 -12.305381,42.52255 -12.305381,42.52255 l 17.166829,8.24765 c 5.7674,2.7175 15.10371,1.7366 23.387792,2.36508 0,0 7.125099,-39.35144 10.6045197,-42.97841 3.479448,-3.62681 10.3049794,-6.12962 2.41313,-13.25944 -5.4257907,-4.9016 -9.8429397,-6.73172 -14.9259817,-8.08686 z"
+       id="path899-8-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccscccccss"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <path
+       style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -36.516613,-492.87056 a 60.773429,33.029038 15 0 0 -66.842917,15.06986 l -0.13852,-0.0366 -4.27162,15.94202 6.77713,1.81593 a 60.773429,33.029038 15 0 0 47.378507,31.01663 60.773429,33.029038 15 0 0 56.5286001,-3.17489 l 6.9252476,1.8556 4.2716203,-15.94203 -0.24432,-0.0653 a 60.773429,33.029038 15 0 0 -50.383937,-46.48096 z"
+       id="path879-6-7-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <ellipse
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-92-56"
+       cx="-162.73424"
+       cy="-419.19223"
+       rx="60.773426"
+       ry="33.029037"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299"
+       transform="rotate(15)" />
+    <ellipse
+       style="opacity:1;fill:#aaeeff;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-3-0-93"
+       cx="-162.51402"
+       cy="-417.82089"
+       rx="51.305103"
+       ry="27.883211"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299"
+       transform="rotate(15)" />
+    <path
+       style="opacity:1;fill:#cccccc;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 215.1304,-527.81397 c -0.6164,-0.61527 -1.26721,-1.21347 -1.94822,-1.81246 -0.56115,-0.49326 -1.48515,-0.94729 -2.72379,-1.34747 -5.7462,-2.8568 -14.45255,-3.7389 -31.62664,-1.73525 -28.27604,7.21847 -58.90128,17.12541 -75.96659,34.57033 -35.451158,37.65308 6.60624,77.06773 6.60624,77.06773 0,0 39.41396,42.05671 77.067,6.60566 18.40994,-21.89686 31.35001,-50.14719 34.57038,-75.96656 2.00384,-17.17599 1.12159,-25.88239 -1.73589,-31.62856 -0.4,-1.23776 -0.85383,-2.16095 -1.34683,-2.72197 -0.77461,-0.88211 -1.55019,-1.71027 -2.36081,-2.48246 -0.1731,-0.18722 -0.35335,-0.36748 -0.53485,-0.54898 z"
+       id="path917-1-4-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <path
+       style="opacity:1;fill:#b3b3b3;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 131.82311,-440.27039 c -1.69077,-1.69079 -3.55398,-3.36121 -5.59759,-5.30739 -0.17894,-0.16474 -0.37315,-0.28691 -0.5882,-0.3643 -3.03625,-2.62301 -6.52981,-4.77858 -11.94435,-6.5279 -10.12056,-3.26967 -8.87519,3.89275 -10.27651,8.7195 -1.40125,4.82666 -31.918047,30.67292 -31.918047,30.67292 l 10.743085,15.72609 c 3.635967,5.23712 12.211898,9.05579 19.071882,13.74211 0,0 25.84625,-30.5168 30.67301,-31.91813 4.82669,-1.40119 11.98917,-0.15592 8.71955,-10.27645 -2.24808,-6.9578 -5.15838,-10.75131 -8.88285,-14.46642 z"
+       id="path899-8-7-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccscccccss"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <path
+       style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 96.495407,-408.63676 a 60.773429,33.029038 45 0 0 -65.42261,-20.37058 l -0.101662,-0.10095 -11.670348,11.67039 4.961206,4.9612 a 60.773429,33.029038 45 0 0 25.522689,50.55045 60.773429,33.029038 45 0 0 50.542648,25.51478 l 5.06964,5.0696 11.67036,-11.67038 -0.17895,-0.17871 a 60.773429,33.029038 45 0 0 -20.393287,-65.44567 z"
+       id="path879-6-7-6-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <ellipse
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-92-56-2"
+       cx="-220.61491"
+       cy="-309.74936"
+       rx="60.773426"
+       ry="33.029037"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299"
+       transform="rotate(45)" />
+    <ellipse
+       style="opacity:1;fill:#ddafe9;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-3-0-93-5"
+       cx="-220.3947"
+       cy="-308.37802"
+       rx="51.305103"
+       ry="27.883211"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299"
+       transform="rotate(45)" />
+    <path
+       style="opacity:1;fill:#cccccc;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 334.79166,-383.0679 c -0.43615,-0.75384 -0.90996,-1.5001 -1.41274,-2.25494 -0.41436,-0.62169 -1.18936,-1.2994 -2.28222,-2.00653 -4.81101,-4.24668 -12.99241,-7.3521 -30.09988,-9.8617 -29.18083,-0.34587 -61.32665,1.29711 -82.32554,13.73078 -43.98852,27.19465 -13.56545,76.15153 -13.56545,76.15153 0,0 27.18587,50.82475 72.73133,26.32699 23.44995,-16.3859 43.26083,-40.32448 53.05401,-64.43059 6.38104,-16.0721 7.78223,-24.71018 6.50932,-31.00013 -0.066,-1.29911 -0.26544,-2.3083 -0.59643,-2.9778 -0.51991,-1.05254 -1.05472,-2.05322 -1.63786,-3.0089 -0.11874,-0.22564 -0.24621,-0.44641 -0.37454,-0.6687 z"
+       id="path917-1-4-7-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <path
+       style="opacity:1;fill:#b3b3b3;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 231.66505,-320.06881 c -1.19554,-2.07078 -2.56293,-4.16652 -4.0332,-6.57531 -0.1302,-0.20544 -0.28618,-0.37371 -0.47387,-0.50413 -2.25391,-3.31947 -5.07052,-6.30579 -9.84781,-9.39689 -8.92945,-5.77765 -9.58028,1.46304 -12.18311,5.76264 -2.60274,4.29952 -38.7692,21.36677 -38.7692,21.36677 l 6.30681,17.97075 c 2.15661,5.99972 9.45198,11.90789 14.86531,18.21002 0,0 32.86388,-22.78746 37.88885,-22.89179 5.02489,-0.1042 11.62102,2.95243 11.08218,-7.6695 -0.37066,-7.30257 -2.19997,-11.72005 -4.83599,-16.27254 z"
+       id="path899-8-7-4-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccscccccss"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <path
+       style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 189.35374,-298.65656 a 60.773429,33.029038 60 0 0 -57.9211,-36.60908 l -0.0721,-0.12383 -14.29321,8.25223 3.5081,6.07621 a 60.773429,33.029038 60 0 0 11.56961,55.43374 60.773429,33.029038 60 0 0 42.21674,37.72678 l 3.58479,6.20898 14.29321,-8.25221 -0.1266,-0.21894 a 60.773429,33.029038 60 0 0 -2.75981,-68.49383 z"
+       id="path879-6-7-6-5-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <ellipse
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-92-56-2-4"
+       cx="-163.86497"
+       cy="-265.88043"
+       rx="60.773426"
+       ry="33.029037"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299"
+       transform="rotate(60)" />
+    <ellipse
+       style="opacity:1;fill:#c6afe9;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-3-0-93-5-3"
+       cx="-163.64479"
+       cy="-264.50912"
+       rx="51.305103"
+       ry="27.883211"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299"
+       transform="rotate(60)" />
+    <path
+       style="opacity:1;fill:#cccccc;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -372.44486,-655.03505 c 0.84146,-0.22464 1.70418,-0.41729 2.59346,-0.59553 0.73258,-0.1466 1.75981,-0.0778 3.03259,0.19495 6.40475,0.39904 14.38573,3.9883 28.25709,14.31056 20.87854,20.38939 42.4473,44.28168 48.50383,67.92207 11.87506,50.3341 -44.25504,63.43949 -44.25504,63.43949 0,0 -55.16183,16.7152 -70.04479,-32.81283 -4.99504,-28.1682 -2.07632,-59.10374 8.04444,-83.07415 6.85262,-15.87677 11.96987,-22.97561 17.31761,-26.52319 0.96529,-0.87194 1.81991,-1.44453 2.52737,-1.68389 1.11189,-0.37662 2.19764,-0.70605 3.28576,-0.96946 0.24351,-0.0756 0.48974,-0.14157 0.73768,-0.20801 z"
+       id="path917-1-4-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <path
+       style="opacity:1;fill:#b3b3b3;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -344.07041,-537.56644 c 2.30963,-0.61888 4.75844,-1.13391 7.50134,-1.79754 0.23734,-0.0532 0.46661,-0.0619 0.69155,-0.0214 3.94098,-0.75346 8.04427,-0.87346 13.60806,0.31885 10.39948,2.22866 5.73975,7.80881 4.53996,12.68956 -1.19981,4.88064 12.30537,42.52255 12.30537,42.52255 l -17.16682,8.24765 c -5.7674,2.7175 -15.10371,1.7366 -23.3878,2.36508 0,0 -7.12509,-39.35144 -10.60452,-42.97841 -3.47944,-3.62681 -10.30498,-6.12962 -2.41313,-13.25944 5.42579,-4.9016 9.84294,-6.73172 14.92599,-8.08686 z"
+       id="path899-8-7-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccscccccss"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <path
+       style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -329.29255,-492.50707 a 33.029038,60.773429 75 0 1 66.84293,15.06986 l 0.13852,-0.0366 4.27162,15.94202 -6.77713,1.81593 a 33.029038,60.773429 75 0 1 -47.37852,31.01663 33.029038,60.773429 75 0 1 -56.52861,-3.1749 l -6.92524,1.85561 -4.27163,-15.94202 0.24433,-0.0653 a 33.029038,60.773429 75 0 1 50.38394,-46.48097 z"
+       id="path879-6-7-6-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <ellipse
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-92-56-9"
+       cx="190.70435"
+       cy="-513.51941"
+       rx="60.773426"
+       ry="33.029037"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299"
+       transform="matrix(-0.96592583,0.25881905,0.25881905,0.96592583,0,0)" />
+    <ellipse
+       style="opacity:1;fill:#ffeeaa;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-3-0-93-2"
+       cx="190.92456"
+       cy="-512.14807"
+       rx="51.305103"
+       ry="27.883211"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299"
+       transform="matrix(-0.96592583,0.25881905,0.25881905,0.96592583,0,0)" />
+    <path
+       style="opacity:1;fill:#cccccc;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -580.93955,-527.45048 c 0.6164,-0.61527 1.26719,-1.21347 1.9482,-1.81246 0.56116,-0.49326 1.48516,-0.94729 2.72381,-1.34747 5.74619,-2.8568 14.45255,-3.7389 31.62662,-1.73525 28.27605,7.21847 58.90128,17.12541 75.96659,34.57033 35.45115,37.65308 -6.60625,77.06773 -6.60625,77.06773 0,0 -39.41395,42.05671 -77.06699,6.60567 -18.40992,-21.89686 -31.35,-50.1472 -34.57038,-75.96657 -2.00382,-17.17599 -1.12156,-25.88239 1.73591,-31.62856 0.4,-1.23776 0.85384,-2.16095 1.34683,-2.72197 0.7746,-0.88211 1.5502,-1.71027 2.3608,-2.48246 0.17309,-0.18722 0.35335,-0.36748 0.53486,-0.54898 z"
+       id="path917-1-4-7-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <path
+       style="opacity:1;fill:#b3b3b3;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -497.63226,-439.9069 c 1.69076,-1.6908 3.55399,-3.36122 5.59758,-5.30739 0.17893,-0.16475 0.37316,-0.28691 0.58819,-0.3643 3.03625,-2.623 6.52981,-4.77858 11.94435,-6.5279 10.12055,-3.26967 8.87518,3.89276 10.2765,8.7195 1.40126,4.82666 31.91806,30.67293 31.91806,30.67293 l -10.74309,15.72609 c -3.63596,5.23711 -12.2119,9.05579 -19.07188,13.74209 0,0 -25.84625,-30.51678 -30.67299,-31.91811 -4.82668,-1.40119 -11.98917,-0.15592 -8.71955,-10.27645 2.24808,-6.9578 5.15837,-10.75132 8.88285,-14.46644 z"
+       id="path899-8-7-4-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccscccccss"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <path
+       style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -462.30457,-408.27327 a 33.029038,60.773429 45 0 1 65.42261,-20.37058 l 0.10166,-0.10094 11.67034,11.67037 -4.9612,4.9612 a 33.029038,60.773429 45 0 1 -25.5227,50.55047 33.029038,60.773429 45 0 1 -50.54264,25.51478 l -5.06963,5.0696 -11.67035,-11.6704 0.17894,-0.1787 a 33.029038,60.773429 45 0 1 20.39329,-65.44566 z"
+       id="path879-6-7-6-5-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <ellipse
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-92-56-2-9"
+       cx="38.308262"
+       cy="-568.15857"
+       rx="60.773426"
+       ry="33.029037"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299"
+       transform="matrix(-0.70710678,0.70710678,0.70710678,0.70710678,0,0)" />
+    <ellipse
+       style="opacity:1;fill:#ffe6d5;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-3-0-93-5-2"
+       cx="38.528477"
+       cy="-566.78723"
+       rx="51.305103"
+       ry="27.883211"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299"
+       transform="matrix(-0.70710678,0.70710678,0.70710678,0.70710678,0,0)" />
+    <path
+       style="opacity:1;fill:#cccccc;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -700.6008,-382.70441 c 0.43613,-0.75385 0.90995,-1.50011 1.41271,-2.25494 0.41437,-0.62169 1.18938,-1.29939 2.28224,-2.00652 4.811,-4.24669 12.9924,-7.35211 30.09988,-9.86171 29.18081,-0.34586 61.32666,1.29712 82.32552,13.73079 43.98855,27.19465 13.56546,76.15153 13.56546,76.15153 0,0 -27.18586,50.82474 -72.73132,26.32697 -23.44996,-16.38588 -43.26083,-40.32446 -53.05401,-64.43057 -6.38103,-16.07211 -7.78224,-24.7102 -6.50933,-31.00014 0.066,-1.2991 0.26546,-2.3083 0.59642,-2.97781 0.51994,-1.05254 1.05474,-2.05322 1.63788,-3.00889 0.11875,-0.22564 0.2462,-0.44641 0.37455,-0.66871 z"
+       id="path917-1-4-7-4-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <path
+       style="opacity:1;fill:#b3b3b3;stroke:#000000;stroke-width:3.29545355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -597.47421,-319.70532 c 1.19554,-2.07079 2.56294,-4.16652 4.0332,-6.57532 0.1302,-0.20542 0.28617,-0.37369 0.47387,-0.50411 2.25391,-3.31949 5.07053,-6.30579 9.84782,-9.39689 8.92945,-5.77765 9.58027,1.46304 12.18311,5.76263 2.60273,4.29953 38.76921,21.36677 38.76921,21.36677 l -6.30682,17.97076 c -2.15662,5.99972 -9.45198,11.90789 -14.86533,18.21 0,0 -32.86386,-22.78745 -37.88883,-22.89177 -5.02489,-0.10419 -11.62103,2.95243 -11.08218,-7.66951 0.37065,-7.30257 2.19996,-11.72006 4.83597,-16.27253 z"
+       id="path899-8-7-4-7-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccscccccss"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <path
+       style="opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -555.16289,-298.29307 a 33.029038,60.773429 30 0 1 57.9211,-36.60907 l 0.0721,-0.12385 14.29321,8.25225 -3.50811,6.07621 a 33.029038,60.773429 30 0 1 -11.56959,55.43373 33.029038,60.773429 30 0 1 -42.21676,37.72677 l -3.58479,6.20898 -14.29321,-8.25219 0.1266,-0.21895 a 33.029038,60.773429 30 0 1 2.75982,-68.49382 z"
+       id="path879-6-7-6-5-4-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299" />
+    <ellipse
+       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-92-56-2-4-9"
+       cx="19.354454"
+       cy="-582.49878"
+       rx="60.773426"
+       ry="33.029037"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299"
+       transform="matrix(-0.5,0.8660254,0.8660254,0.5,0,0)" />
+    <ellipse
+       style="opacity:1;fill:#ffaaaa;fill-opacity:1;stroke:#000000;stroke-width:3.29545355;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-3-0-93-5-3-5"
+       cx="19.574608"
+       cy="-581.12744"
+       rx="51.305103"
+       ry="27.883211"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299"
+       transform="matrix(-0.5,0.8660254,0.8660254,0.5,0,0)" />
+    <path
+       style="opacity:1;fill:url(#linearGradient1006);fill-opacity:1;stroke:#000000;stroke-width:4.25526619;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -176.42932,-1532.9512 c -1.12468,9e-4 -2.26512,0.05 -3.43371,0.1246 -0.96288,0.062 -2.22096,0.491 -3.71739,1.2567 -7.85496,2.6381 -16.60965,9.7821 -30.46118,27.2925 -19.22669,32.4084 -38.14368,69.4163 -37.7971,100.926 2.01061,66.7481 76.39886,64.3353 76.39886,64.3353 0,0 74.38731,2.4128 76.397792,-64.3353 -3.183842,-36.802 -17.162952,-74.4113 -37.797052,-100.926 -13.85296,-17.5123 -22.6078,-24.6561 -30.46339,-27.2936 -1.4954,-0.7649 -2.75269,-1.1936 -3.7152,-1.2556 -1.51257,-0.098 -2.97698,-0.1466 -4.42215,-0.1114 -0.32902,-0.015 -0.65802,-0.015 -0.98948,-0.015 z"
+       id="path917-5-2-6-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#d7eef4;stroke:#000000;stroke-width:4.25526619;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -172.56138,-1376.9552 c -3.08751,0 -6.31397,0.1761 -9.95698,0.2651 -0.31377,0.015 -0.60263,0.081 -0.86953,0.2042 -5.16734,0.3774 -10.32525,1.599 -16.86623,4.9455 -12.22597,6.2553 -4.54921,11.6579 -1.42154,17.3444 3.12754,5.6865 -1.13695,57.1491 -1.13695,57.1491 l 24.16775,4.5495 c 8.10172,1.4622 19.41852,-2.8815 29.96109,-4.8661 0,0 -4.26449,-51.4626 -1.13695,-57.1491 3.12754,-5.6865 10.80431,-11.0891 -1.42167,-17.3444 -8.40529,-4.3003 -14.52622,-5.1066 -21.31899,-5.0982 z"
+       id="path899-6-7-0-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccscccccss"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <path
+       style="opacity:1;fill:#d7eef4;fill-opacity:1;stroke:#000000;stroke-width:4.25526619;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -175.93426,-1315.8159 a 78.473907,42.648863 0 0 0 -78.33393,41.1351 l -0.18505,7e-4 v 21.3114 l 9.05982,-10e-5 a 78.473907,42.648863 0 0 0 69.4589,22.8516 78.473907,42.648863 0 0 0 69.44453,-22.8515 l 9.257757,-10e-5 v -21.3113 h -0.326555 a 78.473907,42.648863 0 0 0 -78.375732,-41.135 z"
+       id="path879-6-2-0-6-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <ellipse
+       style="opacity:1;fill:#d7eef4;fill-opacity:1;stroke:#000000;stroke-width:4.25526619;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-9-9-2-5"
+       cx="-175.80209"
+       cy="-1254.5675"
+       rx="78.4739"
+       ry="42.648861"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+    <ellipse
+       style="opacity:1;fill:#aaaaff;fill-opacity:1;stroke:#000000;stroke-width:4.25526619;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path879-3-1-3-6-3"
+       cx="-175.51775"
+       cy="-1252.7965"
+       rx="66.247902"
+       ry="36.004295"
+       inkscape:export-filename="/home/giulio/darkside.png"
+       inkscape:export-xdpi="299.95898"
+       inkscape:export-ydpi="299.95898" />
+  </g>
+</svg>

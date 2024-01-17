@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FENS 2022</title>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light">
+<a class="navbar-brand" href="#">FENS 2022</a>
+
+</nav>
+<main>
+<div class="container" >
+<div class="row">
+<div class="col col-sm-12 mt-5 mb-5">
+<h1 class="text-center"> A non-invasive technique for recording the electrical activity of the human spinal cord</h1> 
+<h4 class="text-center">Gabrieli G., Lenoir C., Bufacchi R.J., Mouraux A ., Iannetti G.D. </h4>
+<p class="fs-2 mt-5">The spinal cord functions primarily in the <strong>transmission of nerve signals from the motor cortex to the body</strong>, 
+and <strong>from the afferent fibers of the sensory neurons to the sensory cortex</strong>. It is also the location of groups of spinal interneurons that make up the neural circuits known as central pattern generators. 
+These circuits are responsible for controlling motor instructions for rhythmic movements such as walking (Guertin, P. A. ,2013).</p>
+
+<p>The activity of the Spinal Cord is mainly studied in humans using invasive recording techniques (e.g. sub-dermal needles electrodes) or neuroimaging technique (e.g. fMRI).
+The aim of our project is developing a solution to non-invasively record the activity of the Spinal Cord using surface electrodes. Such a solution would solve common issues with fMRI recording, including but not limited to the costs of running an fMRI Scan, <strong>portability</strong> of the instrumentation, and <strong>variety of tasks</strong> subjects can perform.</p>
+</div>
+</div>
+</div>
+<div class="container" >
+<div class="row">
+<div class="col col-sm-12 mt-5">
+<h1 class="text-center">The current study</h1> 
+<p class="fs-2 mt-5">In the current study, participants take part in three different tasks, arranged over two blocks.</p>
+<p> The first task is a <strong> median nerve stimulation task</strong>. Stimulations are delivered at a rate of 4.75Hz, 1000 stimulations per block. In each block, a random number (5 to 30) of omissions is present. In total, our paradigm involves 8 blocks (4 on the left wrist, 4 on the right wrist). Of these, in 4 blocks (2 per side) participants are asked to count the number of omissions, while in the other 4 blocks they are asked to memorize a sequence of letters (Navon's task, Gerlach & Poirel, 2018).</p> 
+</div>
+</div>
+
+<div class="row">
+
+<div class="col col-sm-12 text-center">
+<img src = "images/omissions.png" alt="Omissions." width=80% maxwidth='200px'/><br>
+Example of omissions in the median nerve stimulation sequence
+</div>
+</div>
+
+<div class="row">
+<div class="col col-sm-12 mt-5 text-center">
+<img src = "images/navon.png" alt="Navon's letters." width=80% maxwidth='200px'/>
+<br>
+Examples of Navons' letters.
+</div>
+</div>
+
+</div>
+
+
+<div class="container" >
+<div class="row">
+<div class="col col-sm-12 mt-5">
+<p> In the second part of the session, participants are undergoing a <strong>(1) Cutaneous Stimulation Task</strong>, and a <strong>(2) Cutaneous Discrimination Task</strong>. In the Cutaneous Stimulation Task, participants' fingertips of both hands are simultaneously stimulated with sandpaper. The coarseness of the paper for the two hands may be identical or different. In the Cutaneous Discrimination Task, participants are given two spheres, one per hand, that may have the same or different diameter. Trails (N = 20) of the two conditions are intermingled (total 40 trials). Each trial lasts 10 seconds, with a 10 seconds inter-trial interval. At the end of each trial participants need to report whether the coarseness of the sandpapers or the diameter of the spheres were the same or different between the two hands.</p>
+</div>
+</div>
+
+<div class="row">
+<div class="col col-sm-12 mt-5 text-center">
+<img src = "images/cscd.png" alt="Props used for the Cutaneous Stimulation and Cutaneous Discrimination tasks." width="100%"/>
+<br>
+Props used for the Cutaneous Stimulation and Cutaneous Discrimination tasks.
+</div>
+</div>
+</div>
+
+<div class="container" >
+<div class="row">
+<div class="col col-sm-12 mt-5">
+<h1 class="text-center">Setup</h1> 
+<p class="fs-2 mt-5">Simultaneous spinal (63 channels) and EEG activity (32 channels) are recorded (sampling rate 4096Hz). The ECG is also recorded. </p>
+<p>All the signals are recorded using active electrodes (<a href='https://www.biosemi.com/activetwo_full_specs.htm'>Biosemi ActiveTwo MK2)</a></p>
+<p>During the session, participants are seated on a massage chair, with their neck extended and chest supported. </p> 
+</div>
+</div>
+
+<div class="col col-sm-12">
+<img src = "images/setup.png" alt="Setup of the experiment." width="100%"/>
+</div>
+</div>
+
+<div class="container" >
+<div class="row">
+<div class="col col-sm-12 mt-5">
+<h1 class="text-center">Pilot</h1> 
+<p class="fs-2 mt-5">A pilot (spinal only, 32 channels) was conducted on 3 subjects to verify the feasibility of the setup. Median Nerve Stimulation task was performed only on the left wrist. Cutaneous Stimulation Trials and Cutaneous Discrimination Trials were not intermingled. </p> 
+</div>
+</div>
+</div>
+
+<div class="container" >
+<div class="row">
+<div class="col col-sm-12 mt-5">
+<h1 class="text-center">Preliminary Results (Pilot)</h1> 
+<h2 class="text-center"> Median Nerve Stimulation</h2>
+<p class="fs-2 mt-5">Preliminary analysis identified a plausible physiological component ~10ms after stimulation. The component is stronger on the ipsilateral side, and appears to be earlier in time (~8/9 ms) on the spine at the level of the higher thoracic vertebrae, as compared to (~11/12 ms) lower cervical vertebrae. </p> 
+</div>
+</div>
+
+<div class="row">
+
+<div class="col col-sm-12 ">
+<img src = "images/mediannerve.png" alt="Median Nerve stimulation preliminary results." width="100%"/>
+</div>
+</div>
+
+<div class="row">
+<div class="col col-sm-12 mt-5 text-center">
+<h2 class="text-center"> Cutaneous Discrimination / Cutaneous Stimulation</h2>
+<p class="fs-2 mt-5">Preliminary analysis suggest that a machine learning models (Multilayer Perceptron Classifier) is able to discriminate with high accuracy between trials of the two tasks, suggesting different physiological activity recorded at the spinal level according to the type of stimulation. </p> 
+<p class="fs-2 mt-5"><ol>
+  <li>H1: We can discrminate signals from their baselines</li>
+  <li>H2: We can discriminate between signals recorded from two different conditions</li>
+</ol></p>
+</div>
+</div>
+
+<div class="row">
+
+<div class="col col-sm-12 text-center">
+<img src = "images/ml.png" alt="Machine Learning models preliminary results." width="100%"/>
+</div>
+</div>
+</div>
+
+<div style='background: #8c1616' >
+<div class="container" id='features'>
+<div class='row'>
+<div class="col col-sm-12 mt-5">
+<h1 class="text-center text-white">Preliminary Results</h1> 
+<p class="text-center text-white">Preliminary results confirmed the presence of the component identified in the pilot, as well as the differences in rise time at the different levels of the spinal cord.</p>
+</div>
+</div>
+
+<div class="row">
+<div class="col col-sm-12 text-center">
+<img src = "images/preliminary.png" alt="Preloiminary results" width="100%"/>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container" id='features'>
+<div class='row'>
+<div class="col col-sm-12 text-center">
+<img src = "images/testLR.png" alt="lateralization." width="100%"/><br>
+Differences between Left and Right-side median nerve stimulation.
+</div>
+</div>
+</div>
+
+<div class="container" >
+<div class="row">
+<div class="col col-sm-12 mt-5">
+<h1 class="text-center">Electrodes Positions</h1> 
+<p class="fs-2 mt-5">The optimal position of the electrodes was empirically decided using a simulation software (Sim4Life). A traveling dipole was simulated in the spinal cord, moving from the thoracic (T5) to cervical (C3) vertebrae. </div>
+</div>
+
+<div class="row">
+<div class="col col-sm-12 mt-2">
+<img src = "images/possibilities.png" alt="Setups tested." width="100%"/>
+</div>
+</div>
+
+<div class="row">
+<div class="col col-sm-12 mt-2">
+<img src = "images/sim4life1.png" alt="Screenshot from Sim4Life." width="100%"/>
+</div>
+</div>
+
+<div class="row">
+<div class="col col-sm-12 mt-2">
+<img src = "images/sim4life2.png" alt="Screenshot from Sim4Life." width="100%"/>
+</div>
+</div>
+
+<div class="row">
+<div class="col col-sm-12 mt-2">
+<img src = "images/sim4life3.png" alt="Screenshot from Sim4Life." width="100%"/>
+</div>
+
+</div>
+
+<div class="row">
+<div class="col col-sm-12 mt-2">
+<img src = "images/sim4life4.png" alt="Screenshot from Sim4Life." width="100%"/>
+</div>
+
+</div>
+</div>
+
+<hr class="bg-danger border-2 border-top border-primary">
+<div class="container" >
+<div class="row">
+<div class="col col-sm-12 mt-5">
+<p>Get in touch with me!</p>
+</div>
+</div>
+
+<div class="row">
+<div class="col col-sm-12 mt-5">
+<a href='https://www.giuliogabrieli.it' target="_blank"><button type="button" class="btn btn-info btn-lg sm-12 md-3 mt-3">Website: www.giuliogabrieli.it</button></a>
+<a href='mailto:giulio.gabrieli@iit.it'><button type="button" class="btn btn-info btn-lg sm-12 md-3 mt-3">Email: giulio.gabrieli@iit.it</button></a>
+<a href='https://twitter.com/gabrock94'  target="_blank"><button type="button" class="btn btn-info btn-lg sm-12 md-3 mt-3">Twitter: @gabrock94</button></a>
+</div>
+</div>
+</div>
+</main>
+<div class="container" >
+<div class="row">
+<div class="col col-sm-12 mt-5">
+<h1 class="text-center">References</h1>
+<p class="text-center">
+<ol>
+<li>Gerlach, C., & Poirel, N. (2018). Navon's classical paradigm concerning local and global processing relates systematically to visual object classification performance. Scientific reports, 8(1), 1-9.</li>
+<li>Guertin, P. A. (2013). Central pattern generator for locomotion: anatomical, physiological, and pathophysiological considerations. Frontiers in neurology, 3, 183.</li>
+</ol> 
+</p>
+</div>
+</div>
+</div>
+
+<div class="container" >
+  <div class="row">
+  <div class="col col-sm-12 mt-5">
+  <h1 class="text-center">Downloads</h1>
+  <p class="text-center">
+If you want to download a copy of the poster, click on the download <br>
+<a href='files/GG_fens2022.pdf'  target="_blank"><button type="button" class="btn btn-danger mt-3 sm-12 md-3">Download Poster</button></a>
+  </p>
+  </div>
+  </div>
+  </div>
+
+
+</body>
+</html>

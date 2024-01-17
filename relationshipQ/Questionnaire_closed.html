@@ -1,0 +1,1793 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Romantic relationships and friendships</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
+    <!--Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--Date picker-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
+</head>
+<body>
+    <main>
+        <!--Page 1, header and consent-->
+        <div class="container-fluid" id="consent">
+            <h2 class="text-center">Investigating definitions and changes across time for important factors in friendship and romantic relationships</h2>
+            <h4 class="text-center">NTU-IRB ref no. IRB-2021-03-014</h4>
+            <div style="margin-left:7%; margin-right:7%">
+                <p>
+                    You are invited to participate in a research study on romantic relationships and friendships. Specifically, we are interested in your personal views of these relationships, and how important factors in these relationships (such as trust, patience etc.) change over time. This study is conducted by Gianluca Esposito, Associate Professor, from Department of Psychology and Cognitive Science, University of Trento, Joyce Pang, Associate Professor, from School of Social Sciences, Psychology Division, Nanyang Technological University, and Ng Li Ying, a PhD candidate, from School of Social Sciences, Psychology Division, Nanyang Technological University.
+                </p>
+                <p>
+                    This study will take approximately 30 minutes of your time. You will be asked to complete an online survey about (a) how you view romantic relationships and friendships, (b) fill in non-identifiable information about your personal relationships, and (c) draw how factors such as trust and patience vary throughout the process of your relationships. A total of around 2,000 participants will be recruited for this research.
+                </p>
+                <p>
+                    Your participation in this study is completely voluntary, and you have the right to withdraw from the study at any time without any penalty. You may skip any questions you do not wish to answer. If you do not wish to complete this survey, just close your browser.
+                </p>
+                <p>
+                    Your participation in this research will be kept confidential, and data will be averaged and reported in aggregate. Your responses will be anonymous and IP addresses will not be collected to guarantee complete anonymity. Possible outlets of dissemination may be via research papers and conference presentations. Although your participation in this research may not benefit you personally, it will help us understand how society views love, specifically romantic and friendship love. There will be no compensation provided.
+                </p>
+                <p>
+                    There are no risks to individuals participating in this survey beyond those that exist in daily life in the usage of computer or mobile devices.
+                </p>
+                <p>
+                    If you have questions about this project, you may contact:
+                </p>
+                <table>
+                    <tr>
+                        <td>
+                            <pre style="font-family:Calibri; padding:5px;">
+Gianluca Esposito, Associate Professor
+Department of Psychology and Cognitive Science   
+University of Trento
+Email: gianluca.esposito@unitn.it
+</pre>
+                        </td>
+                        <td>
+                            <pre style="font-family:Calibri; padding:5px;">
+Joyce Pang, Associate Professor
+School of Social Sciences, Psychology Division
+Nanyang Technological University
+Office No: +65 6790 6745
+Email: joycepang@ntu.edu.sg
+</pre>
+                        </td>
+                        <td>
+                            <pre style="font-family:Calibri; padding:5px;">
+Ng Li Ying, PhD candidate
+School of Social Sciences, Psychology Division
+Nanyang Technological University
+HP No.: +65 9006 1373
+Email: LIYING001@e.ntu.edu.sg
+</pre>
+                        </td>
+                    </tr>
+                </table>
+                <button type="button" class="btn btn-primary" id="agreeParticipateButton" onclick="showSurvey()">I have read and understood the above consent form. <br />I certify that I am 21 years old or older and,<br /> by clicking this button to enter the survey, <br />I indicate my willingness to voluntarily take part in the study.</button>
+                <br />
+                <br />
+                <button type="button" class="btn btn-primary" id="close" onclick="closefunc()">I do not wish to participate in this study.</button>
+                <br />
+                <br />
+            </div>
+        </div>
+        <div id="endPage" style="display:none">
+            <h2>Thank you for your time. You may now close this page.</h2>
+        </div>
+        <!--Questionnaire-->
+        <div class="container-fluid">
+            <form id="relationshipQuestionnaire" action="saveRBFform.php" method="post">
+                <!--Add data storage to server here-->
+                <!--Block 1-->
+                <div id="blockOne">
+                    <!--ID1 Relationship Information-->
+                    <div class="card mt-5 mb-5 " div id="formIDOne" style='display: none'>
+                        <div class="card-header">This section will be asking about your romantic relationship(s).</div>
+                        <div class="card-body">
+                            <!--Basic-->
+                            <div id="rInfoBasic">
+                                <label for="r_Info_Def" class="form-label mt-5">What does "romantic partner" mean to you? (Try to be as detailed as possible)</label>
+                                <br>
+                                <textarea class="form-control" textarea name="R_Info_Def" style="width:80%;height:100px;" id='rInfoDef'></textarea>
+
+                                <label for="R_Info_Presence" class="form-label mt-5"> Have you been in a romantic relationship before (currently or in the past)?</label>
+                                <br />
+                                <select class="form-select" aria-label="Default select example" id='rInfoPresence' onchange='rInfoPresenceFunc()'>
+                                    <option selected disabled>Please select one</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </div>
+                            <!--Logic Questions rInfoPresenceYes-->
+                            <!--R info now-->
+                            <div id="rInfoPresenceYes" style='display: none'>
+                                <label for="R_Info_Now" class="form-label mt-5">Are you currently in a romantic relationship?</label>
+                                <br />
+                                <select class="form-select" aria-label="Default select example" id='rInfoNow' onchange="rInfoDateFunc()">
+                                    <option selected disabled>Please select one</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+
+                                <!--R info gender-->
+                                <label for="partnerGender" class="form-label mt-5">What is the gender of your current / most recent partner?</label>
+                                <select class="form-select" aria-label="Default select example" id='rInfoGender' onchange='rGenderOtherFunc()'>
+                                    <option selected disabled>Please select one</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <div id='rGenderOther' style='display: none'>
+                                    <label for="partnerGenderOtherText" class="form-label">Please specify the gender</label>
+                                    <textarea class="form-control" id="partnerGenderOtherText" rows="1"></textarea>
+                                </div>
+
+                                <!--R info LDR-->
+                                <label for="R_Info_LDR" class="form-label mt-5">Is your current / most recent relationship long-distance?</label>
+                                <select class="form-select" aria-label="Default select example" id='rInfoLDR'>
+                                    <option selected disabled>Please select one</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+
+                                <!--R info start end date-->
+                                <label for="rInfoStartDate" class="form-label mt-5">  Start date of current / most recent relationship:  </label>
+                                <div class="input-group date" data-provide="datepicker">
+                                    <input type="text" class="form-control" style="width:150px" id='rStartDate'>
+                                    <div class="input-group-addon"></div>
+                                </div>
+                                <div id='rInfoEndDate' style='display: none'>
+                                    <label for="endDate" class="form-label mt-5">End date of your most recent relationship:</label>
+                                    <div class="input-group date" data-provide="datepicker">
+                                        <input type="text" class="form-control" style="width:150px" id='rEndDate'>
+                                        <div class="input-group-addon"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <div id="rGraphs" style="display:none">
+                                <button type="button" class="btn btn-primary" id="rGraphsButton" onclick="rGraphsFunc()">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--ID2 Relationship Factors-->
+                    <div class="card mt-5 mb-5" id="formIDTwo" style="display:none">
+                        <div class="card-header">Think about your current / most recent / ideal romantic partner (whichever is more applicable). Draw  your progression over time from the start to the current / end / hypothetical end point of this relationship based on the displayed factor:</div>
+                        <div class="card-body">
+                            <!--Graphs-->
+                            <div class="container-fluid">
+                                <div id="romGraph">
+                                    <div id='romdefTextLabel'></div>
+                                    <br />
+                                    <canvas id="romCanvas" width="656" height="656">
+                                        This browser does not support this app. Please upgrade to a more recent version.
+                                    </canvas>
+                                    <input type="button" id="romclear" value="Reset graph" />
+                                    <button onclick="romupdateGraph()" type="button">Continue</button>
+                                </div>
+                                <script>
+                                    //This functions is used to shuffle an array. You can use this to randomize the presentation
+                                    // order of the graphs
+                                    /* Randomize array in-place using Durstenfeld shuffle algorithm */
+                                    function romshuffleArray(romarray) {
+                                        for (var romi = romarray.length - 1; romi > 0; romi--) {
+                                            var romj = Math.floor(Math.random() * (romi + 1));
+                                            var romtemp = romarray[romi];
+                                            romarray[romi] = romarray[romj];
+                                            romarray[romj] = romtemp;
+                                        }
+                                    }
+
+                                    //This is the list of variables
+                                    var romComm = 'Commitment'
+                                    var romCommInt = 'Common Interests'
+                                    var romFriend = 'Friendship'
+                                    var romInt = 'Intimacy'
+                                    var romPass = 'Passion'
+                                    var romPat = 'Patience'
+                                    var romRom = 'Romance'
+                                    var romTru = 'Trust'
+                                    var romGraphs = [romComm, romCommInt, romFriend, romInt, romPass, romPat, romRom, romTru];
+                                    romshuffleArray(romGraphs);
+                                    console.log(romGraphs);
+
+                                    var romcounter = -1; //Initialize the counter
+                                    var romuserimages = {};
+
+                                    function romupdateGraph() {
+
+                                        //TODO: Add something here to save the current state of the plot somewhere.
+
+                                        romcounter = romcounter + 1;
+
+                                        if (romcounter >= 1) {
+                                            var romcanvas = document.getElementById("romCanvas");
+                                            romuserimages[romGraphs[romcounter - 1]] = romcanvas.getContext("2d").canvas.toDataURL();
+                                        }
+
+                                        if (romcounter < romGraphs.length) {
+                                            document.getElementById('romdefTextLabel').innerHTML = romGraphs[romcounter];
+                                            var romcanvas = document.getElementById("romCanvas");
+                                            var romctx = romcanvas.getContext("2d");
+
+                                            //Resizing canvas
+                                            var romimgBG = new Image();
+                                            romimgBG.crossOrigin = 'anonymous';
+                                            romimgBG.setAttribute('crossOrigin', 'anonymous');
+                                            romimgBG.src = "https://i.ibb.co/nwqKfm3/canvasbg.png";
+                                            romimgBG.width = 656;
+                                            romimgBG.height = 656;
+                                            romimgBG.onload = function () {
+                                                romctx.canvas.width = romimgBG.width;
+                                                romctx.canvas.height = romimgBG.height;
+                                                romctx.drawImage(romimgBG, 0, 0);
+                                            };
+                                            window.addEventListener('load', romresize, false);
+                                            window.addEventListener('resize', romresize, false);
+                                            function romresize() {
+                                                var romratio = 1;
+                                                var romcanvas_height = window.innerHeight;
+                                                var romcanvas_width = romcanvas_height * romratio;
+                                                if (window.innerHeight < 656) {
+                                                    romcanvas_height = window.innerHeight;
+                                                    romcanvas_width = romcanvas_height / romratio;
+                                                }
+                                                else {
+                                                    romcanvas_width = 656;
+                                                    romcanvas_height = 656;
+                                                }
+                                                //check this
+                                                romcanvas.style.width = romcanvas_width + 'px';
+                                                romcanvas.style.height = romcanvas_height + 'px';
+                                            }
+
+                                            // initialize position as 0,0
+                                            var rompos = { romx: 0, romy: 0 };
+                                            //clear canvas
+                                            romctx.clearRect(0, 0, romcanvas.width, romcanvas.height);
+                                            romimgBG.crossOrigin = 'anonymous';
+                                            romimgBG.setAttribute('crossOrigin', 'anonymous');
+                                            romimgBG.src = "https://i.ibb.co/nwqKfm3/canvasbg.png";
+
+                                            // new position from mouse events
+                                            function romsetPosition(e) {
+                                                rompos.romx = e.offsetX;
+                                                rompos.romy = e.offsetY;
+                                            }
+
+                                            function romdraw(e) {
+                                                if (e.buttons !== 1) return; // if mouse is not clicked, do not go further
+
+                                                var color = '#000000';
+
+                                                romctx.beginPath(); // begin the drawing path
+
+                                                romctx.lineWidth = 5; // width of line
+                                                romctx.lineCap = "round"; // rounded end cap
+                                                romctx.strokeStyle = color; // hex color of line
+
+                                                romctx.moveTo(rompos.romx, rompos.romy); // from position
+                                                romsetPosition(e);
+                                                romctx.lineTo(rompos.romx, rompos.romy); // to position
+
+                                                romctx.stroke(); // draw it!
+                                            }
+
+                                            // add event listeners to trigger on different mouse events
+                                            document.addEventListener("mousemove", romdraw);
+                                            document.addEventListener("mousedown", romsetPosition);
+                                            document.addEventListener("mouseenter", romsetPosition);
+                                            //Clear graph function
+                                            document.getElementById('romclear').addEventListener('click', function () {
+                                                romctx.clearRect(0, 0, romcanvas.width, romcanvas.height);
+                                                romimgBG.crossOrigin = 'anonymous';
+                                                romimgBG.setAttribute('crossOrigin', 'anonymous');
+                                                romimgBG.src = "https://i.ibb.co/nwqKfm3/canvasbg.png";
+                                            }, false);
+
+                                        } else {
+                                            document.getElementById('formIDTwo').style.display = "none";
+                                            if (document.getElementById('rInfoPresence').value == 'no') {
+                                                document.getElementById('formIDTwoNext').style.display = 'block';
+                                            } else {
+                                                if (condNum == 1) {
+                                                    document.getElementById('formIDThree').style.display = 'block';
+                                                }
+                                                else {
+                                                    document.getElementById('formDemographics').style.display = 'block';
+                                                }
+                                            }
+                                        }
+                                    };
+                                    romupdateGraph();
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Gender section-->
+                    <div id="formIDTwoNext" style="display:none">
+                        <!--Ideal gender-->
+                        <div id="rIdealGenderSelect">
+                            <label for="bfOneGender" class="form-label mt-5">What is the gender of your ideal romantic partner?</label>
+                            <select class="form-select" aria-label="Default select example" id='rIdealGender' onchange='rIdealFunc()'>
+                                <option selected disabled>Please select one</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <div id='rIdealGenderOther' style='display: none'>
+                                <label for="rIdealGenderText" class="form-label">Please specify the gender</label>
+                                <textarea class="form-control" id="rIdealGenderText" rows="1"></textarea>
+                            </div>
+                            <br />
+                        </div>
+                        <!--Buttons-->
+                        <button type="button" class="btn btn-primary" id="blockOneNext" style="display:none" onclick="showNext()">Continue</button>
+                        <button type="button" class="btn btn-primary" id="blockOneDem" style="display:none" onclick="showDem()">Continue</button>
+                    </div>
+                </div>
+                <!--Block 2-->
+                <div id="blockTwo">
+                    <!--ID3 Best friend Information-->
+                    <div class="card mt-5 mb-5" id="formIDThree" style="display:none">
+                        <div class="card-header">This section will be asking about your best friend(s).</div>
+                        <div class="card-body">
+                            <!--Basic-->
+                            <div id="bfInfoBasic">
+                                <label for="BF_Info_Def" class="mt-5">What does "best friend" mean to you? (Try to be as detailed as possible)</label>
+                                <textarea name="BF_Info_Def" style="width:80%;height:100px" id="bfInfoDef"></textarea>
+                                <br />
+
+                                <label for="BF_Info_Presence" class="mt-5">Do you have best friend(s) (current or past)?</label>
+                                <select class="form-select" aria-label="Default select example" id='bfInfoPresence' onchange='bfInfoPresenceFunc()'>
+                                    <option selected disabled>Please select one</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                                <br />
+                            </div>
+                            <!--Logic questions-->
+                            <div id="bfInfoPresenceYes" style="display:none">
+                                <label for="bfInfoNum" class="mt-5">Total number of best friend(s) (past and present):</label>
+                                <input type="number" id="bfNum" value="0" />
+                                <br />
+                                <label for="bfInfoNowCountry" class="mt-5">Current number of best friend(s) within country of residence:</label>
+                                <input type="number" id="bfCountryRes" value="0" />
+                                <br />
+                                <label for="bfInfoNowCity" class="mt-5">Current number of best friend(s) within city of residence:</label>
+                                <input type="number" id="bfCityRes" value="0" />
+                                <br />
+                                <label for="bfInfoLDR" class="mt-5">Current number of best friend(s) outside country of residence:</label>
+                                <input type="number" id="bfOutRes" value="0" />
+                                <br />
+                            </div>
+                            <div id="bfGraphs" style="display:none">
+                                <button type="button" class="btn btn-primary" id="bfGraphsButton" onclick="bfOneGraphsFunc()">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--ID4 BF1-->
+                    <div class="card mt-5 mb-5" id="formIDFour" style="display:none">
+                        <div class="card-header">For this section, think about your 1st closest actual / ideal best friend (whichever is more applicable). Draw your progression over time from the start to the current / hypothetical end point of this relationship based on the displayed factor:</div>
+                        <div class="card body">
+                            <!--R partner check-->
+                            <div>
+                                <label for="bfOneCheck" class="form-label mt-5">Is this person also your ideal / current / past romantic partner?</label>
+                                <select class="form-select" aria-label="Default select example" id="bfOneCheck">
+                                    <option selected disabled>Please select one</option>
+                                    <option value="NIL">Not applicable</option>
+                                    <option value="actual">Current romantic partner</option>
+                                    <option value="ideal">Ideal romantic partner</option>
+                                    <option value="past">Past romantic partner</option>
+                                </select>
+                            </div>
+                            <!--Graphs-->
+                            <div class="container-fluid">
+                                <div id="bfOneGraph">
+                                    <div id='bfOnedefTextLabel'></div>
+                                    <br />
+                                    <canvas id="bfOneCanvas" width="656" height="656">
+                                        This browser does not support this appvar. Please upgrade to a more recent version.
+                                    </canvas>
+                                    <input type="button" id="bfOneclear" value="Reset graph" />
+                                    <button onclick="bfOneupdateGraph()" type="button">Continue</button>
+                                </div>
+
+                                <script>
+                                    //This functions is used to shuffle an array. You can use this to randomize the presentation
+                                    // order of the graphs
+                                    /* Randomize array in-place using Durstenfeld shuffle algorithm */
+                                    function bfOneshuffleArray(bfOnearray) {
+                                        for (var bfOnei = bfOnearray.length - 1; bfOnei > 0; bfOnei--) {
+                                            var bfOnej = Math.floor(Math.random() * (bfOnei + 1));
+                                            var bfOnetemp = bfOnearray[bfOnei];
+                                            bfOnearray[bfOnei] = bfOnearray[bfOnej];
+                                            bfOnearray[bfOnej] = bfOnetemp;
+                                        }
+                                    }
+
+                                    //This is the list of variables
+                                    var bfOneComm = 'Commitment'
+                                    var bfOneCommInt = 'Common Interests'
+                                    var bfOneFriend = 'Friendship'
+                                    var bfOneInt = 'Intimacy'
+                                    var bfOnePass = 'Passion'
+                                    var bfOnePat = 'Patience'
+                                    var bfOnebfOne = 'Romance'
+                                    var bfOneTru = 'Trust'
+                                    var bfOneGraphs = [bfOneComm, bfOneCommInt, bfOneFriend, bfOneInt, bfOnePass, bfOnePat, bfOnebfOne, bfOneTru];
+                                    bfOneshuffleArray(bfOneGraphs);
+                                    console.log(bfOneGraphs);
+
+                                    var bfOnecounter = -1; //Initialize the counter
+                                    var bfOneuserimages = {};
+
+                                    function bfOneupdateGraph() {
+
+                                        //TODO: Add something here to save the current state of the plot somewhere.
+
+                                        bfOnecounter = bfOnecounter + 1;
+
+                                        if (bfOnecounter >= 1) {
+                                            var bfOnecanvas = document.getElementById("bfOneCanvas");
+                                            bfOneuserimages[bfOneGraphs[bfOnecounter - 1]] = bfOnecanvas.getContext("2d").canvas.toDataURL();
+                                        }
+
+                                        if (bfOnecounter < bfOneGraphs.length) {
+                                            document.getElementById('bfOnedefTextLabel').innerHTML = bfOneGraphs[bfOnecounter];
+                                            var bfOnecanvas = document.getElementById("bfOneCanvas");
+                                            var bfOnectx = bfOnecanvas.getContext("2d");
+
+                                            //Resizing canvas
+                                            var bfOneimgBG = new Image();
+                                            bfOneimgBG.crossOrigin = 'anonymous';
+                                            bfOneimgBG.setAttribute('crossOrigin', 'anonymous');
+                                            bfOneimgBG.src = "https://i.ibb.co/nwqKfm3/canvasbg.png";
+                                            bfOneimgBG.width = 656;
+                                            bfOneimgBG.height = 656;
+                                            bfOneimgBG.onload = function () {
+                                                bfOnectx.canvas.width = bfOneimgBG.width;
+                                                bfOnectx.canvas.height = bfOneimgBG.height;
+                                                bfOnectx.drawImage(bfOneimgBG, 0, 0);
+                                            };
+                                            window.addEventListener('load', bfOneresize, false);
+                                            window.addEventListener('resize', bfOneresize, false);
+                                            //declare variables for canvas
+                                            var bfOneratio = 1;
+                                            var bfOnecanvas_height = window.innerHeight;
+                                            var bfOnecanvas_width = bfOnecanvas_height * bfOneratio;
+                                            //resize function
+                                            function bfOneresize() {
+                                                if (window.innerHeight < 656) {
+                                                    bfOnecanvas_height = window.innerHeight;
+                                                    bfOnecanvas_width = bfOnecanvas_height / bfOneratio;
+                                                }
+                                                else {
+                                                    bfOnecanvas_width = 656;
+                                                    bfOnecanvas_height = 656;
+                                                }
+                                                //check this
+                                                bfOnecanvas.style.width = bfOnecanvas_width + 'px';
+                                                bfOnecanvas.style.height = bfOnecanvas_height + 'px';
+                                            }
+
+                                            // initialize position (account for resize)
+                                            var bfOnepos = { bfOnex: 0, bfOney: 0 };
+                                            //clear canvas
+                                            bfOnectx.clearRect(0, 0, bfOnecanvas.width, bfOnecanvas.height);
+                                            bfOneimgBG.crossOrigin = 'anonymous';
+                                            bfOneimgBG.setAttribute('crossOrigin', 'anonymous');
+                                            bfOneimgBG.src = "https://i.ibb.co/nwqKfm3/canvasbg.png";
+
+                                            // new position fbfOne mouse events
+                                            function bfOnesetPosition(e) {
+                                                bfOnepos.bfOnex = e.offsetX;
+                                                bfOnepos.bfOney = e.offsetY;
+                                            }
+
+                                            function bfOnedraw(e) {
+                                                if (e.buttons !== 1) return; // if mouse is not clicked, do not go further
+
+                                                var color = '#000000';
+
+                                                bfOnectx.beginPath(); // begin the drawing path
+
+                                                bfOnectx.lineWidth = 5; // width of line
+                                                bfOnectx.lineCap = "round"; // rounded end cap
+                                                bfOnectx.strokeStyle = color; // hex color of line
+
+                                                bfOnectx.moveTo(bfOnepos.bfOnex * bfOnecanvas.width / bfOnecanvas.clientWidth, bfOnepos.bfOney * bfOnecanvas.height / bfOnecanvas.clientHeight); // fbfOne position
+                                                bfOnesetPosition(e);
+                                                bfOnectx.lineTo(bfOnepos.bfOnex * bfOnecanvas.width / bfOnecanvas.clientWidth, bfOnepos.bfOney * bfOnecanvas.height / bfOnecanvas.clientHeight); // to position
+
+                                                bfOnectx.stroke(); // draw it!
+                                            }
+
+                                            // add event listeners to trigger on different mouse events
+                                            document.addEventListener("mousemove", bfOnedraw);
+                                            document.addEventListener("mousedown", bfOnesetPosition);
+                                            document.addEventListener("mouseenter", bfOnesetPosition);
+                                            //Clear graph function
+                                            document.getElementById('bfOneclear').addEventListener('click', function () {
+                                                bfOnectx.clearRect(0, 0, bfOnecanvas.width, bfOnecanvas.height);
+                                                bfOneimgBG.crossOrigin = 'anonymous';
+                                                bfOneimgBG.setAttribute('crossOrigin', 'anonymous');
+                                                bfOneimgBG.src = "https://i.ibb.co/nwqKfm3/canvasbg.png";
+                                            }, false);
+
+                                        } else {
+                                            document.getElementById('formIDFour').style.display = "none";
+                                            document.getElementById('bfOneGenderSection').style.display = "block";
+                                            console.log(bfOneuserimages);
+                                        }
+                                    };
+
+                                    bfOneupdateGraph();
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                    <!--ID4 BF1 Gender-->
+                    <div id="bfOneGenderSection" style="display:none">
+                        <label for="bfOneGender" class="form-label mt-5">What is the gender of your 1st closest actual / ideal best friend?</label>
+                        <select class="form-select" aria-label="Default select example" id='bfOneGender' onchange='bfOneOtherFunc()'>
+                            <option selected disabled>Please select one</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <div id='bfOneGenderOther' style='display: none'>
+                            <label for="bfOneGenderOtherText" class="form-label">Please specify the gender</label>
+                            <textarea class="form-control" id="bfOneGenderOtherText" rows="1"></textarea>
+                        </div>
+                        <!--Buttons-->
+                        <div>
+                            <br />
+                            <button type="button" class="btn btn-primary" id="formIDFourNext" onclick="toformIDFive()">Next</button>
+                            <script>
+                                function toformIDFive() {
+                                    document.getElementById('bfOneGenderSection').style.display = 'none';
+                                    document.getElementById('formIDFive').style.display = 'block';
+                                }
+                            </script>
+                        </div>
+
+
+                    </div>
+                    <!--ID5 BF2-->
+                    <div class="card mt-5 mb-5" id="formIDFive" style="display:none">
+                        <div class="card-header">For this section, think of your 2nd closest actual / ideal best friend.</div>
+                        <div class="card body">
+                            <!--R partner check-->
+                            <div>
+                                <label for="bfTwoCheck" class="form-label mt-5">Is this person also your ideal / current / past romantic partner?</label>
+                                <select class="form-select" aria-label="Default select example" id="bfTwoCheck">
+                                    <option selected disabled>Please select one</option>
+                                    <option value="NIL">Not applicable</option>
+                                    <option value="actual">Current romantic partner</option>
+                                    <option value="ideal">Ideal romantic partner</option>
+                                    <option value="past">Past romantic partner</option>
+                                </select>
+                            </div>
+                            <label for="bfTwoStatus" class="form-label mt-5">Is this your actual / ideal best friend:</label>
+                            <select class="form-select" aria-label="Default select example" id="bfTwoStat">
+                                <option selected disabled>Please select one</option>
+                                <option value="actual">Actual</option>
+                                <option value="ideal">Ideal</option>
+                            </select>
+                            <br />
+                            <!--Graphs-->
+                            <div class="container-fluid">
+                                <div id="bfTwoGraph">
+                                    <div id='bfTwodefTextLabel'></div>
+                                    <br />
+                                    <canvas id="bfTwoCanvas" width="656" height="656">
+                                        This browser does not support this app. Please upgrade to a more recent version.
+                                    </canvas>
+                                    <input type="button" id="bfTwoclear" value="Reset graph" />
+                                    <button onclick="bfTwoupdateGraph()" type="button">Continue</button>
+                                </div>
+
+                                <script>
+                                    //This functions is used to shuffle an array. You can use this to randomize the presentation
+                                    // order of the graphs
+                                    /* Randomize array in-place using Durstenfeld shuffle algorithm */
+                                    function bfTwoshuffleArray(bfTwoarray) {
+                                        for (var bfTwoi = bfTwoarray.length - 1; bfTwoi > 0; bfTwoi--) {
+                                            var bfTwoj = Math.floor(Math.random() * (bfTwoi + 1));
+                                            var bfTwotemp = bfTwoarray[bfTwoi];
+                                            bfTwoarray[bfTwoi] = bfTwoarray[bfTwoj];
+                                            bfTwoarray[bfTwoj] = bfTwotemp;
+                                        }
+                                    }
+
+                                    //This is the list of variables
+                                    var bfTwoComm = 'Commitment'
+                                    var bfTwoCommInt = 'Common Interests'
+                                    var bfTwoFriend = 'Friendship'
+                                    var bfTwoInt = 'Intimacy'
+                                    var bfTwoPass = 'Passion'
+                                    var bfTwoPat = 'Patience'
+                                    var bfTwobfTwo = 'Romance'
+                                    var bfTwoTru = 'Trust'
+                                    var bfTwoGraphs = [bfTwoComm, bfTwoCommInt, bfTwoFriend, bfTwoInt, bfTwoPass, bfTwoPat, bfTwobfTwo, bfTwoTru];
+                                    bfTwoshuffleArray(bfTwoGraphs);
+                                    console.log(bfTwoGraphs);
+
+                                    var bfTwocounter = -1; //Initialize the counter
+                                    var bfTwouserimages = {};
+
+                                    function bfTwoupdateGraph() {
+
+                                        //TODO: Add something here to save the current state of the plot somewhere.
+
+                                        bfTwocounter = bfTwocounter + 1;
+
+                                        if (bfTwocounter >= 1) {
+                                            var bfTwocanvas = document.getElementById("bfTwoCanvas");
+                                            bfTwouserimages[bfTwoGraphs[bfTwocounter - 1]] = bfTwocanvas.getContext("2d").canvas.toDataURL();
+                                        }
+
+                                        if (bfTwocounter < bfTwoGraphs.length) {
+                                            document.getElementById('bfTwodefTextLabel').innerHTML = bfTwoGraphs[bfTwocounter];
+                                            var bfTwocanvas = document.getElementById("bfTwoCanvas");
+                                            var bfTwoctx = bfTwocanvas.getContext("2d");
+
+                                            //Resizing canvas
+                                            var bfTwoimgBG = new Image();
+                                            bfTwoimgBG.crossOrigin = 'anonymous';
+                                            bfTwoimgBG.setAttribute('crossOrigin', 'anonymous');
+                                            bfTwoimgBG.src = "https://i.ibb.co/nwqKfm3/canvasbg.png";
+                                            bfTwoimgBG.width = 656;
+                                            bfTwoimgBG.height = 656;
+                                            bfTwoimgBG.onload = function () {
+                                                bfTwoctx.canvas.width = bfTwoimgBG.width;
+                                                bfTwoctx.canvas.height = bfTwoimgBG.height;
+                                                bfTwoctx.drawImage(bfTwoimgBG, 0, 0);
+                                            };
+                                            window.addEventListener('load', bfTworesize, false);
+                                            window.addEventListener('resize', bfTworesize, false);
+                                            //declare variables for canvas
+                                            var bfTworatio = 1;
+                                            var bfTwocanvas_height = window.innerHeight;
+                                            var bfTwocanvas_width = bfTwocanvas_height * bfTworatio;
+                                            //resize function
+                                            function bfTworesize() {
+                                                if (window.innerHeight < 656) {
+                                                    bfTwocanvas_height = window.innerHeight;
+                                                    bfTwocanvas_width = bfTwocanvas_height / bfTworatio;
+                                                }
+                                                else {
+                                                    bfTwocanvas_width = 656;
+                                                    bfTwocanvas_height = 656;
+                                                }
+                                                //check this
+                                                bfTwocanvas.style.width = bfTwocanvas_width + 'px';
+                                                bfTwocanvas.style.height = bfTwocanvas_height + 'px';
+                                            }
+
+                                            // initialize position (account for resize)
+                                            var bfTwopos = { bfTwox: 0, bfTwoy: 0 };
+                                            //clear canvas
+                                            bfTwoctx.clearRect(0, 0, bfTwocanvas.width, bfTwocanvas.height);
+                                            bfTwoimgBG.crossOrigin = 'anonymous';
+                                            bfTwoimgBG.setAttribute('crossOrigin', 'anonymous');
+                                            bfTwoimgBG.src = "https://i.ibb.co/nwqKfm3/canvasbg.png";
+
+                                            // new position fbfTwo mouse events
+                                            function bfTwosetPosition(e) {
+                                                bfTwopos.bfTwox = e.offsetX;
+                                                bfTwopos.bfTwoy = e.offsetY;
+                                            }
+
+                                            function bfTwodraw(e) {
+                                                if (e.buttons !== 1) return; // if mouse is not clicked, do not go further
+
+                                                var color = '#000000';
+
+                                                bfTwoctx.beginPath(); // begin the drawing path
+
+                                                bfTwoctx.lineWidth = 5; // width of line
+                                                bfTwoctx.lineCap = "round"; // rounded end cap
+                                                bfTwoctx.strokeStyle = color; // hex color of line
+
+                                                bfTwoctx.moveTo(bfTwopos.bfTwox * bfTwocanvas.width / bfTwocanvas.clientWidth, bfTwopos.bfTwoy * bfTwocanvas.height / bfTwocanvas.clientHeight); // fbfTwo position
+                                                bfTwosetPosition(e);
+                                                bfTwoctx.lineTo(bfTwopos.bfTwox * bfTwocanvas.width / bfTwocanvas.clientWidth, bfTwopos.bfTwoy * bfTwocanvas.height / bfTwocanvas.clientHeight); // to position
+
+                                                bfTwoctx.stroke(); // draw it!
+                                            }
+
+                                            // add event listeners to trigger on different mouse events
+                                            document.addEventListener("mousemove", bfTwodraw);
+                                            document.addEventListener("mousedown", bfTwosetPosition);
+                                            document.addEventListener("mouseenter", bfTwosetPosition);
+                                            //Clear graph function
+                                            document.getElementById('bfTwoclear').addEventListener('click', function () {
+                                                bfTwoctx.clearRect(0, 0, bfTwocanvas.width, bfTwocanvas.height);
+                                                bfTwoimgBG.crossOrigin = 'anonymous';
+                                                bfTwoimgBG.setAttribute('crossOrigin', 'anonymous');
+                                                bfTwoimgBG.src = "https://i.ibb.co/nwqKfm3/canvasbg.png";
+                                            }, false);
+
+                                        } else {
+                                            document.getElementById('formIDFive').style.display = "none";
+                                            document.getElementById('bfTwoGenderSection').style.display = 'block';
+                                            console.log(bfTwouserimages);
+                                        }
+                                    };
+
+                                    bfTwoupdateGraph();
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                    <!--ID5 BF2 Gender-->
+                    <div id="bfTwoGenderSection" style="display:none">
+                        <label for="bfTwoGender" class="form-label mt-5">What is the gender of your 2nd closest actual / ideal best friend?</label>
+                        <select class="form-select" aria-label="Default select example" id='bfTwoGender' onchange='bfTwoOtherFunc()'>
+                            <option selected disabled>Please select one</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <div id='bfTwoOther' style='display: none'>
+                            <label for="bfTwoOtherText" class="form-label">Please specify the gender</label>
+                            <textarea class="form-control" id="bfTwoGenderOtherText" rows="1"></textarea>
+                        </div>
+                        <!--Buttons-->
+                        <div>
+                            <br />
+                            <button type="button" class="btn btn-primary" id="formIDFiveNext" onclick="toformIDSix()">Next</button>
+                            <script>
+                                function toformIDSix() {
+                                    document.getElementById('bfTwoGenderSection').style.display = 'none';
+                                    document.getElementById('formIDSix').style.display = 'block';
+                                }
+                            </script>
+                        </div>
+                    </div>
+                    <!--ID6 BF3-->
+                    <div class="card mt-5 mb-5" id="formIDSix" style="display:none">
+                        <div class="card-header">For this section, think of your 3rd closest actual / ideal best friend.</div>
+                        <div class="card body">
+                            <!--R partner check-->
+                            <div>
+                                <label for="bfThreeCheck" class="form-label mt-5">Is this person also your ideal / current / past romantic partner?</label>
+                                <select class="form-select" aria-label="Default select example" id="bfThreeCheck">
+                                    <option selected disabled>Please select one</option>
+                                    <option value="NIL">Not applicable</option>
+                                    <option value="actual">Current romantic partner</option>
+                                    <option value="ideal">Ideal romantic partner</option>
+                                    <option value="past">Past romantic partner</option>
+                                </select>
+                            </div>
+                            <label for="bfThreeStatus" class="form-label mt-5">Is this your actual / ideal best friend:</label>
+                            <select class="form-select" aria-label="Default select example" id="bfThreeStat">
+                                <option selected disabled>Please select one</option>
+                                <option value="actual">Actual</option>
+                                <option value="ideal">Ideal</option>
+                            </select>
+                            <br />
+                            <!--Graphs-->
+                            <div class="container-fluid">
+                                <div id="bfThreeGraph">
+                                    <div id='bfThreedefTextLabel'></div>
+                                    <br />
+                                    <canvas id="bfThreeCanvas" width="656" height="656">
+                                        This browser does not support this appvar. Please upgrade to a more recent version.
+                                    </canvas>
+                                    <input type="button" id="bfThreeclear" value="Reset graph" />
+                                    <button onclick="bfThreeupdateGraph()" type="button">Continue</button>
+                                </div>
+
+                                <script>
+                                    //This functions is used to shuffle an array. You can use this to randomize the presentation
+                                    // order of the graphs
+                                    /* Randomize array in-place using Durstenfeld shuffle algorithm */
+                                    function bfThreeshuffleArray(bfThreearray) {
+                                        for (var bfThreei = bfThreearray.length - 1; bfThreei > 0; bfThreei--) {
+                                            var bfThreej = Math.floor(Math.random() * (bfThreei + 1));
+                                            var bfThreetemp = bfThreearray[bfThreei];
+                                            bfThreearray[bfThreei] = bfThreearray[bfThreej];
+                                            bfThreearray[bfThreej] = bfThreetemp;
+                                        }
+                                    }
+
+                                    //This is the list of variables
+                                    var bfThreeComm = 'Commitment'
+                                    var bfThreeCommInt = 'Common Interests'
+                                    var bfThreeFriend = 'Friendship'
+                                    var bfThreeInt = 'Intimacy'
+                                    var bfThreePass = 'Passion'
+                                    var bfThreePat = 'Patience'
+                                    var bfThreebfThree = 'Romance'
+                                    var bfThreeTru = 'Trust'
+                                    var bfThreeGraphs = [bfThreeComm, bfThreeCommInt, bfThreeFriend, bfThreeInt, bfThreePass, bfThreePat, bfThreebfThree, bfThreeTru];
+                                    bfThreeshuffleArray(bfThreeGraphs);
+                                    console.log(bfThreeGraphs);
+
+                                    var bfThreecounter = -1; //Initialize the counter
+                                    var bfThreeuserimages = {};
+
+                                    function bfThreeupdateGraph() {
+
+                                        //TODO: Add something here to save the current state of the plot somewhere.
+
+                                        bfThreecounter = bfThreecounter + 1;
+
+                                        if (bfThreecounter >= 1) {
+                                            var bfThreecanvas = document.getElementById("bfThreeCanvas");
+                                            bfThreeuserimages[bfThreeGraphs[bfThreecounter - 1]] = bfThreecanvas.getContext("2d").canvas.toDataURL();
+                                        }
+
+                                        if (bfThreecounter < bfThreeGraphs.length) {
+                                            document.getElementById('bfThreedefTextLabel').innerHTML = bfThreeGraphs[bfThreecounter];
+                                            var bfThreecanvas = document.getElementById("bfThreeCanvas");
+                                            var bfThreectx = bfThreecanvas.getContext("2d");
+
+                                            //Resizing canvas
+                                            var bfThreeimgBG = new Image();
+                                            bfThreeimgBG.crossOrigin = 'anonymous';
+                                            bfThreeimgBG.setAttribute('crossOrigin', 'anonymous');
+                                            bfThreeimgBG.src = "https://i.ibb.co/nwqKfm3/canvasbg.png";
+                                            bfThreeimgBG.width = 656;
+                                            bfThreeimgBG.height = 656;
+                                            bfThreeimgBG.onload = function () {
+                                                bfThreectx.canvas.width = bfThreeimgBG.width;
+                                                bfThreectx.canvas.height = bfThreeimgBG.height;
+                                                bfThreectx.drawImage(bfThreeimgBG, 0, 0);
+                                            };
+                                            window.addEventListener('load', bfThreeresize, false);
+                                            window.addEventListener('resize', bfThreeresize, false);
+                                            //declare variables for canvas
+                                            var bfThreeratio = 1;
+                                            var bfThreecanvas_height = window.innerHeight;
+                                            var bfThreecanvas_width = bfThreecanvas_height * bfThreeratio;
+                                            //resize function
+                                            function bfThreeresize() {
+                                                if (window.innerHeight < 656) {
+                                                    bfThreecanvas_height = window.innerHeight;
+                                                    bfThreecanvas_width = bfThreecanvas_height / bfThreeratio;
+                                                }
+                                                else {
+                                                    bfThreecanvas_width = 656;
+                                                    bfThreecanvas_height = 656;
+                                                }
+                                                //check this
+                                                bfThreecanvas.style.width = bfThreecanvas_width + 'px';
+                                                bfThreecanvas.style.height = bfThreecanvas_height + 'px';
+                                            }
+
+                                            // initialize position (account for resize)
+                                            var bfThreepos = { bfThreex: 0, bfThreey: 0 };
+                                            //clear canvas
+                                            bfThreectx.clearRect(0, 0, bfThreecanvas.width, bfThreecanvas.height);
+                                            bfThreeimgBG.crossOrigin = 'anonymous';
+                                            bfThreeimgBG.setAttribute('crossOrigin', 'anonymous');
+                                            bfThreeimgBG.src = "https://i.ibb.co/nwqKfm3/canvasbg.png";
+
+                                            // new position fbfThree mouse events
+                                            function bfThreesetPosition(e) {
+                                                bfThreepos.bfThreex = e.offsetX;
+                                                bfThreepos.bfThreey = e.offsetY;
+                                            }
+
+                                            function bfThreedraw(e) {
+                                                if (e.buttons !== 1) return; // if mouse is not clicked, do not go further
+
+                                                var color = '#000000';
+
+                                                bfThreectx.beginPath(); // begin the drawing path
+
+                                                bfThreectx.lineWidth = 5; // width of line
+                                                bfThreectx.lineCap = "round"; // rounded end cap
+                                                bfThreectx.strokeStyle = color; // hex color of line
+
+                                                bfThreectx.moveTo(bfThreepos.bfThreex * bfThreecanvas.width / bfThreecanvas.clientWidth, bfThreepos.bfThreey * bfThreecanvas.height / bfThreecanvas.clientHeight); // fbfThree position
+                                                bfThreesetPosition(e);
+                                                bfThreectx.lineTo(bfThreepos.bfThreex * bfThreecanvas.width / bfThreecanvas.clientWidth, bfThreepos.bfThreey * bfThreecanvas.height / bfThreecanvas.clientHeight); // to position
+
+                                                bfThreectx.stroke(); // draw it!
+                                            }
+
+                                            // add event listeners to trigger on different mouse events
+                                            document.addEventListener("mousemove", bfThreedraw);
+                                            document.addEventListener("mousedown", bfThreesetPosition);
+                                            document.addEventListener("mouseenter", bfThreesetPosition);
+                                            //Clear graph function
+                                            document.getElementById('bfThreeclear').addEventListener('click', function () {
+                                                bfThreectx.clearRect(0, 0, bfThreecanvas.width, bfThreecanvas.height);
+                                                bfThreeimgBG.crossOrigin = 'anonymous';
+                                                bfThreeimgBG.setAttribute('crossOrigin', 'anonymous');
+                                                bfThreeimgBG.src = "https://i.ibb.co/nwqKfm3/canvasbg.png";
+                                            }, false);
+
+                                        } else {
+                                            document.getElementById('formIDSix').style.display = "none";
+                                            document.getElementById('bfThreeGenderSection').style.display = "block";
+                                            console.log(bfThreeuserimages);
+                                            if (condNum == 1) {
+                                                document.getElementById('blockTwoDem').style.display = 'block';
+                                            }
+                                            else {
+                                                document.getElementById('blockTwoNext').style.display = 'block';
+
+                                            }
+                                        }
+                                    };
+
+                                    bfThreeupdateGraph();
+                                </script>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!--ID6 BF3 Gender-->
+                    <div id="bfThreeGenderSection" style="display:none">
+                        <label for="bfThreeGender" class="form-label mt-5">What is the gender of your 3rd closest actual / ideal best friend?</label>
+                        <select class="form-select" aria-label="Default select example" id='bfThreeGender' onchange='bfThreeOtherFunc()'>
+                            <option selected disabled>Please select one</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <div id='bfThreeOther' style='display: none'>
+                            <label for="bfThreeOtherText" class="form-label">Please specify the gender</label>
+                            <textarea class="form-control" id="bfThreeGenderOtherText" rows="1"></textarea>
+                        </div>
+                        <!--Buttons-->
+                        <div>
+                            <br />
+                            <button type="button" class="btn btn-primary" id="blockTwoNext" style="display:none" onclick="showNext()">Next</button>
+                            <button type="button" class="btn btn-primary" id="blockTwoDem" style="display:none" onclick="showDem()">Next</button>
+                        </div>
+                    </div>
+                </div>
+                <!--Block 3-->
+                <div class="card mt-5 mb-5" div id="formDemographics" style='display: none'>
+                    <div class="card-header">This section will be asking for your demographic information.</div>
+                    <!--Demographics-->
+                    <div class="card-body">
+                        <!--Age-->
+                        <label for="age">Age:</label>
+                        <input type="number" id="age" value="0" />
+                        <br />
+                        <br />
+                        <!--Country of birth and residence-->
+                        <div>
+                            <label for="birthplace">Country of birth:</label>
+                            <select id="birthplace">
+                                <option value="AF">Afghanistan</option>
+                                <option value="AX">Åland Islands</option>
+                                <option value="AL">Albania</option>
+                                <option value="DZ">Algeria</option>
+                                <option value="AS">American Samoa</option>
+                                <option value="AD">Andorra</option>
+                                <option value="AO">Angola</option>
+                                <option value="AI">Anguilla</option>
+                                <option value="AQ">Antarctica</option>
+                                <option value="AG">Antigua and Barbuda</option>
+                                <option value="AR">Argentina</option>
+                                <option value="AM">Armenia</option>
+                                <option value="AW">Aruba</option>
+                                <option value="AU">Australia</option>
+                                <option value="AT">Austria</option>
+                                <option value="AZ">Azerbaijan</option>
+                                <option value="BS">Bahamas</option>
+                                <option value="BH">Bahrain</option>
+                                <option value="BD">Bangladesh</option>
+                                <option value="BB">Barbados</option>
+                                <option value="BY">Belarus</option>
+                                <option value="BE">Belgium</option>
+                                <option value="BZ">Belize</option>
+                                <option value="BJ">Benin</option>
+                                <option value="BM">Bermuda</option>
+                                <option value="BT">Bhutan</option>
+                                <option value="BO">Bolivia, Plurinational State of</option>
+                                <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                                <option value="BA">Bosnia and Herzegovina</option>
+                                <option value="BW">Botswana</option>
+                                <option value="BV">Bouvet Island</option>
+                                <option value="BR">Brazil</option>
+                                <option value="IO">British Indian Ocean Territory</option>
+                                <option value="BN">Brunei Darussalam</option>
+                                <option value="BG">Bulgaria</option>
+                                <option value="BF">Burkina Faso</option>
+                                <option value="BI">Burundi</option>
+                                <option value="KH">Cambodia</option>
+                                <option value="CM">Cameroon</option>
+                                <option value="CA">Canada</option>
+                                <option value="CV">Cape Verde</option>
+                                <option value="KY">Cayman Islands</option>
+                                <option value="CF">Central African Republic</option>
+                                <option value="TD">Chad</option>
+                                <option value="CL">Chile</option>
+                                <option value="CN">China</option>
+                                <option value="CX">Christmas Island</option>
+                                <option value="CC">Cocos (Keeling) Islands</option>
+                                <option value="CO">Colombia</option>
+                                <option value="KM">Comoros</option>
+                                <option value="CG">Congo</option>
+                                <option value="CD">Congo, the Democratic Republic of the</option>
+                                <option value="CK">Cook Islands</option>
+                                <option value="CR">Costa Rica</option>
+                                <option value="CI">Côte d'Ivoire</option>
+                                <option value="HR">Croatia</option>
+                                <option value="CU">Cuba</option>
+                                <option value="CW">Curaçao</option>
+                                <option value="CY">Cyprus</option>
+                                <option value="CZ">Czech Republic</option>
+                                <option value="DK">Denmark</option>
+                                <option value="DJ">Djibouti</option>
+                                <option value="DM">Dominica</option>
+                                <option value="DO">Dominican Republic</option>
+                                <option value="EC">Ecuador</option>
+                                <option value="EG">Egypt</option>
+                                <option value="SV">El Salvador</option>
+                                <option value="GQ">Equatorial Guinea</option>
+                                <option value="ER">Eritrea</option>
+                                <option value="EE">Estonia</option>
+                                <option value="ET">Ethiopia</option>
+                                <option value="FK">Falkland Islands (Malvinas)</option>
+                                <option value="FO">Faroe Islands</option>
+                                <option value="FJ">Fiji</option>
+                                <option value="FI">Finland</option>
+                                <option value="FR">France</option>
+                                <option value="GF">French Guiana</option>
+                                <option value="PF">French Polynesia</option>
+                                <option value="TF">French Southern Territories</option>
+                                <option value="GA">Gabon</option>
+                                <option value="GM">Gambia</option>
+                                <option value="GE">Georgia</option>
+                                <option value="DE">Germany</option>
+                                <option value="GH">Ghana</option>
+                                <option value="GI">Gibraltar</option>
+                                <option value="GR">Greece</option>
+                                <option value="GL">Greenland</option>
+                                <option value="GD">Grenada</option>
+                                <option value="GP">Guadeloupe</option>
+                                <option value="GU">Guam</option>
+                                <option value="GT">Guatemala</option>
+                                <option value="GG">Guernsey</option>
+                                <option value="GN">Guinea</option>
+                                <option value="GW">Guinea-Bissau</option>
+                                <option value="GY">Guyana</option>
+                                <option value="HT">Haiti</option>
+                                <option value="HM">Heard Island and McDonald Islands</option>
+                                <option value="VA">Holy See (Vatican City State)</option>
+                                <option value="HN">Honduras</option>
+                                <option value="HK">Hong Kong</option>
+                                <option value="HU">Hungary</option>
+                                <option value="IS">Iceland</option>
+                                <option value="IN">India</option>
+                                <option value="ID">Indonesia</option>
+                                <option value="IR">Iran, Islamic Republic of</option>
+                                <option value="IQ">Iraq</option>
+                                <option value="IE">Ireland</option>
+                                <option value="IM">Isle of Man</option>
+                                <option value="IL">Israel</option>
+                                <option value="IT">Italy</option>
+                                <option value="JM">Jamaica</option>
+                                <option value="JP">Japan</option>
+                                <option value="JE">Jersey</option>
+                                <option value="JO">Jordan</option>
+                                <option value="KZ">Kazakhstan</option>
+                                <option value="KE">Kenya</option>
+                                <option value="KI">Kiribati</option>
+                                <option value="KP">Korea, Democratic People's Republic of</option>
+                                <option value="KR">Korea, Republic of</option>
+                                <option value="KW">Kuwait</option>
+                                <option value="KG">Kyrgyzstan</option>
+                                <option value="LA">Lao People's Democratic Republic</option>
+                                <option value="LV">Latvia</option>
+                                <option value="LB">Lebanon</option>
+                                <option value="LS">Lesotho</option>
+                                <option value="LR">Liberia</option>
+                                <option value="LY">Libya</option>
+                                <option value="LI">Liechtenstein</option>
+                                <option value="LT">Lithuania</option>
+                                <option value="LU">Luxembourg</option>
+                                <option value="MO">Macao</option>
+                                <option value="MK">Macedonia, the former Yugoslav Republic of</option>
+                                <option value="MG">Madagascar</option>
+                                <option value="MW">Malawi</option>
+                                <option value="MY">Malaysia</option>
+                                <option value="MV">Maldives</option>
+                                <option value="ML">Mali</option>
+                                <option value="MT">Malta</option>
+                                <option value="MH">Marshall Islands</option>
+                                <option value="MQ">Martinique</option>
+                                <option value="MR">Mauritania</option>
+                                <option value="MU">Mauritius</option>
+                                <option value="YT">Mayotte</option>
+                                <option value="MX">Mexico</option>
+                                <option value="FM">Micronesia, Federated States of</option>
+                                <option value="MD">Moldova, Republic of</option>
+                                <option value="MC">Monaco</option>
+                                <option value="MN">Mongolia</option>
+                                <option value="ME">Montenegro</option>
+                                <option value="MS">Montserrat</option>
+                                <option value="MA">Morocco</option>
+                                <option value="MZ">Mozambique</option>
+                                <option value="MM">Myanmar</option>
+                                <option value="NA">Namibia</option>
+                                <option value="NR">Nauru</option>
+                                <option value="NP">Nepal</option>
+                                <option value="NL">Netherlands</option>
+                                <option value="NC">New Caledonia</option>
+                                <option value="NZ">New Zealand</option>
+                                <option value="NI">Nicaragua</option>
+                                <option value="NE">Niger</option>
+                                <option value="NG">Nigeria</option>
+                                <option value="NU">Niue</option>
+                                <option value="NF">Norfolk Island</option>
+                                <option value="MP">Northern Mariana Islands</option>
+                                <option value="NO">Norway</option>
+                                <option value="OM">Oman</option>
+                                <option value="PK">Pakistan</option>
+                                <option value="PW">Palau</option>
+                                <option value="PS">Palestinian Territory, Occupied</option>
+                                <option value="PA">Panama</option>
+                                <option value="PG">Papua New Guinea</option>
+                                <option value="PY">Paraguay</option>
+                                <option value="PE">Peru</option>
+                                <option value="PH">Philippines</option>
+                                <option value="PN">Pitcairn</option>
+                                <option value="PL">Poland</option>
+                                <option value="PT">Portugal</option>
+                                <option value="PR">Puerto Rico</option>
+                                <option value="QA">Qatar</option>
+                                <option value="RE">Réunion</option>
+                                <option value="RO">Romania</option>
+                                <option value="RU">Russian Federation</option>
+                                <option value="RW">Rwanda</option>
+                                <option value="BL">Saint Barthélemy</option>
+                                <option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+                                <option value="KN">Saint Kitts and Nevis</option>
+                                <option value="LC">Saint Lucia</option>
+                                <option value="MF">Saint Martin (French part)</option>
+                                <option value="PM">Saint Pierre and Miquelon</option>
+                                <option value="VC">Saint Vincent and the Grenadines</option>
+                                <option value="WS">Samoa</option>
+                                <option value="SM">San Marino</option>
+                                <option value="ST">Sao Tome and Principe</option>
+                                <option value="SA">Saudi Arabia</option>
+                                <option value="SN">Senegal</option>
+                                <option value="RS">Serbia</option>
+                                <option value="SC">Seychelles</option>
+                                <option value="SL">Sierra Leone</option>
+                                <option value="SG">Singapore</option>
+                                <option value="SX">Sint Maarten (Dutch part)</option>
+                                <option value="SK">Slovakia</option>
+                                <option value="SI">Slovenia</option>
+                                <option value="SB">Solomon Islands</option>
+                                <option value="SO">Somalia</option>
+                                <option value="ZA">South Africa</option>
+                                <option value="GS">South Georgia and the South Sandwich Islands</option>
+                                <option value="SS">South Sudan</option>
+                                <option value="ES">Spain</option>
+                                <option value="LK">Sri Lanka</option>
+                                <option value="SD">Sudan</option>
+                                <option value="SR">Suriname</option>
+                                <option value="SJ">Svalbard and Jan Mayen</option>
+                                <option value="SZ">Swaziland</option>
+                                <option value="SE">Sweden</option>
+                                <option value="CH">Switzerland</option>
+                                <option value="SY">Syrian Arab Republic</option>
+                                <option value="TW">Taiwan, Province of China</option>
+                                <option value="TJ">Tajikistan</option>
+                                <option value="TZ">Tanzania, United Republic of</option>
+                                <option value="TH">Thailand</option>
+                                <option value="TL">Timor-Leste</option>
+                                <option value="TG">Togo</option>
+                                <option value="TK">Tokelau</option>
+                                <option value="TO">Tonga</option>
+                                <option value="TT">Trinidad and Tobago</option>
+                                <option value="TN">Tunisia</option>
+                                <option value="TR">Turkey</option>
+                                <option value="TM">Turkmenistan</option>
+                                <option value="TC">Turks and Caicos Islands</option>
+                                <option value="TV">Tuvalu</option>
+                                <option value="UG">Uganda</option>
+                                <option value="UA">Ukraine</option>
+                                <option value="AE">United Arab Emirates</option>
+                                <option value="GB">United Kingdom</option>
+                                <option value="US">United States</option>
+                                <option value="UM">United States Minor Outlying Islands</option>
+                                <option value="UY">Uruguay</option>
+                                <option value="UZ">Uzbekistan</option>
+                                <option value="VU">Vanuatu</option>
+                                <option value="VE">Venezuela, Bolivarian Republic of</option>
+                                <option value="VN">Viet Nam</option>
+                                <option value="VG">Virgin Islands, British</option>
+                                <option value="VI">Virgin Islands, U.S.</option>
+                                <option value="WF">Wallis and Futuna</option>
+                                <option value="EH">Western Sahara</option>
+                                <option value="YE">Yemen</option>
+                                <option value="ZM">Zambia</option>
+                                <option value="ZW">Zimbabwe</option>
+                            </select>
+                            <label for="residence">Country of Residence:</label>
+                            <select id="res">
+                                <option value="AF">Afghanistan</option>
+                                <option value="AX">Åland Islands</option>
+                                <option value="AL">Albania</option>
+                                <option value="DZ">Algeria</option>
+                                <option value="AS">American Samoa</option>
+                                <option value="AD">Andorra</option>
+                                <option value="AO">Angola</option>
+                                <option value="AI">Anguilla</option>
+                                <option value="AQ">Antarctica</option>
+                                <option value="AG">Antigua and Barbuda</option>
+                                <option value="AR">Argentina</option>
+                                <option value="AM">Armenia</option>
+                                <option value="AW">Aruba</option>
+                                <option value="AU">Australia</option>
+                                <option value="AT">Austria</option>
+                                <option value="AZ">Azerbaijan</option>
+                                <option value="BS">Bahamas</option>
+                                <option value="BH">Bahrain</option>
+                                <option value="BD">Bangladesh</option>
+                                <option value="BB">Barbados</option>
+                                <option value="BY">Belarus</option>
+                                <option value="BE">Belgium</option>
+                                <option value="BZ">Belize</option>
+                                <option value="BJ">Benin</option>
+                                <option value="BM">Bermuda</option>
+                                <option value="BT">Bhutan</option>
+                                <option value="BO">Bolivia, Plurinational State of</option>
+                                <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                                <option value="BA">Bosnia and Herzegovina</option>
+                                <option value="BW">Botswana</option>
+                                <option value="BV">Bouvet Island</option>
+                                <option value="BR">Brazil</option>
+                                <option value="IO">British Indian Ocean Territory</option>
+                                <option value="BN">Brunei Darussalam</option>
+                                <option value="BG">Bulgaria</option>
+                                <option value="BF">Burkina Faso</option>
+                                <option value="BI">Burundi</option>
+                                <option value="KH">Cambodia</option>
+                                <option value="CM">Cameroon</option>
+                                <option value="CA">Canada</option>
+                                <option value="CV">Cape Verde</option>
+                                <option value="KY">Cayman Islands</option>
+                                <option value="CF">Central African Republic</option>
+                                <option value="TD">Chad</option>
+                                <option value="CL">Chile</option>
+                                <option value="CN">China</option>
+                                <option value="CX">Christmas Island</option>
+                                <option value="CC">Cocos (Keeling) Islands</option>
+                                <option value="CO">Colombia</option>
+                                <option value="KM">Comoros</option>
+                                <option value="CG">Congo</option>
+                                <option value="CD">Congo, the Democratic Republic of the</option>
+                                <option value="CK">Cook Islands</option>
+                                <option value="CR">Costa Rica</option>
+                                <option value="CI">Côte d'Ivoire</option>
+                                <option value="HR">Croatia</option>
+                                <option value="CU">Cuba</option>
+                                <option value="CW">Curaçao</option>
+                                <option value="CY">Cyprus</option>
+                                <option value="CZ">Czech Republic</option>
+                                <option value="DK">Denmark</option>
+                                <option value="DJ">Djibouti</option>
+                                <option value="DM">Dominica</option>
+                                <option value="DO">Dominican Republic</option>
+                                <option value="EC">Ecuador</option>
+                                <option value="EG">Egypt</option>
+                                <option value="SV">El Salvador</option>
+                                <option value="GQ">Equatorial Guinea</option>
+                                <option value="ER">Eritrea</option>
+                                <option value="EE">Estonia</option>
+                                <option value="ET">Ethiopia</option>
+                                <option value="FK">Falkland Islands (Malvinas)</option>
+                                <option value="FO">Faroe Islands</option>
+                                <option value="FJ">Fiji</option>
+                                <option value="FI">Finland</option>
+                                <option value="FR">France</option>
+                                <option value="GF">French Guiana</option>
+                                <option value="PF">French Polynesia</option>
+                                <option value="TF">French Southern Territories</option>
+                                <option value="GA">Gabon</option>
+                                <option value="GM">Gambia</option>
+                                <option value="GE">Georgia</option>
+                                <option value="DE">Germany</option>
+                                <option value="GH">Ghana</option>
+                                <option value="GI">Gibraltar</option>
+                                <option value="GR">Greece</option>
+                                <option value="GL">Greenland</option>
+                                <option value="GD">Grenada</option>
+                                <option value="GP">Guadeloupe</option>
+                                <option value="GU">Guam</option>
+                                <option value="GT">Guatemala</option>
+                                <option value="GG">Guernsey</option>
+                                <option value="GN">Guinea</option>
+                                <option value="GW">Guinea-Bissau</option>
+                                <option value="GY">Guyana</option>
+                                <option value="HT">Haiti</option>
+                                <option value="HM">Heard Island and McDonald Islands</option>
+                                <option value="VA">Holy See (Vatican City State)</option>
+                                <option value="HN">Honduras</option>
+                                <option value="HK">Hong Kong</option>
+                                <option value="HU">Hungary</option>
+                                <option value="IS">Iceland</option>
+                                <option value="IN">India</option>
+                                <option value="ID">Indonesia</option>
+                                <option value="IR">Iran, Islamic Republic of</option>
+                                <option value="IQ">Iraq</option>
+                                <option value="IE">Ireland</option>
+                                <option value="IM">Isle of Man</option>
+                                <option value="IL">Israel</option>
+                                <option value="IT">Italy</option>
+                                <option value="JM">Jamaica</option>
+                                <option value="JP">Japan</option>
+                                <option value="JE">Jersey</option>
+                                <option value="JO">Jordan</option>
+                                <option value="KZ">Kazakhstan</option>
+                                <option value="KE">Kenya</option>
+                                <option value="KI">Kiribati</option>
+                                <option value="KP">Korea, Democratic People's Republic of</option>
+                                <option value="KR">Korea, Republic of</option>
+                                <option value="KW">Kuwait</option>
+                                <option value="KG">Kyrgyzstan</option>
+                                <option value="LA">Lao People's Democratic Republic</option>
+                                <option value="LV">Latvia</option>
+                                <option value="LB">Lebanon</option>
+                                <option value="LS">Lesotho</option>
+                                <option value="LR">Liberia</option>
+                                <option value="LY">Libya</option>
+                                <option value="LI">Liechtenstein</option>
+                                <option value="LT">Lithuania</option>
+                                <option value="LU">Luxembourg</option>
+                                <option value="MO">Macao</option>
+                                <option value="MK">Macedonia, the former Yugoslav Republic of</option>
+                                <option value="MG">Madagascar</option>
+                                <option value="MW">Malawi</option>
+                                <option value="MY">Malaysia</option>
+                                <option value="MV">Maldives</option>
+                                <option value="ML">Mali</option>
+                                <option value="MT">Malta</option>
+                                <option value="MH">Marshall Islands</option>
+                                <option value="MQ">Martinique</option>
+                                <option value="MR">Mauritania</option>
+                                <option value="MU">Mauritius</option>
+                                <option value="YT">Mayotte</option>
+                                <option value="MX">Mexico</option>
+                                <option value="FM">Micronesia, Federated States of</option>
+                                <option value="MD">Moldova, Republic of</option>
+                                <option value="MC">Monaco</option>
+                                <option value="MN">Mongolia</option>
+                                <option value="ME">Montenegro</option>
+                                <option value="MS">Montserrat</option>
+                                <option value="MA">Morocco</option>
+                                <option value="MZ">Mozambique</option>
+                                <option value="MM">Myanmar</option>
+                                <option value="NA">Namibia</option>
+                                <option value="NR">Nauru</option>
+                                <option value="NP">Nepal</option>
+                                <option value="NL">Netherlands</option>
+                                <option value="NC">New Caledonia</option>
+                                <option value="NZ">New Zealand</option>
+                                <option value="NI">Nicaragua</option>
+                                <option value="NE">Niger</option>
+                                <option value="NG">Nigeria</option>
+                                <option value="NU">Niue</option>
+                                <option value="NF">Norfolk Island</option>
+                                <option value="MP">Northern Mariana Islands</option>
+                                <option value="NO">Norway</option>
+                                <option value="OM">Oman</option>
+                                <option value="PK">Pakistan</option>
+                                <option value="PW">Palau</option>
+                                <option value="PS">Palestinian Territory, Occupied</option>
+                                <option value="PA">Panama</option>
+                                <option value="PG">Papua New Guinea</option>
+                                <option value="PY">Paraguay</option>
+                                <option value="PE">Peru</option>
+                                <option value="PH">Philippines</option>
+                                <option value="PN">Pitcairn</option>
+                                <option value="PL">Poland</option>
+                                <option value="PT">Portugal</option>
+                                <option value="PR">Puerto Rico</option>
+                                <option value="QA">Qatar</option>
+                                <option value="RE">Réunion</option>
+                                <option value="RO">Romania</option>
+                                <option value="RU">Russian Federation</option>
+                                <option value="RW">Rwanda</option>
+                                <option value="BL">Saint Barthélemy</option>
+                                <option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+                                <option value="KN">Saint Kitts and Nevis</option>
+                                <option value="LC">Saint Lucia</option>
+                                <option value="MF">Saint Martin (French part)</option>
+                                <option value="PM">Saint Pierre and Miquelon</option>
+                                <option value="VC">Saint Vincent and the Grenadines</option>
+                                <option value="WS">Samoa</option>
+                                <option value="SM">San Marino</option>
+                                <option value="ST">Sao Tome and Principe</option>
+                                <option value="SA">Saudi Arabia</option>
+                                <option value="SN">Senegal</option>
+                                <option value="RS">Serbia</option>
+                                <option value="SC">Seychelles</option>
+                                <option value="SL">Sierra Leone</option>
+                                <option value="SG">Singapore</option>
+                                <option value="SX">Sint Maarten (Dutch part)</option>
+                                <option value="SK">Slovakia</option>
+                                <option value="SI">Slovenia</option>
+                                <option value="SB">Solomon Islands</option>
+                                <option value="SO">Somalia</option>
+                                <option value="ZA">South Africa</option>
+                                <option value="GS">South Georgia and the South Sandwich Islands</option>
+                                <option value="SS">South Sudan</option>
+                                <option value="ES">Spain</option>
+                                <option value="LK">Sri Lanka</option>
+                                <option value="SD">Sudan</option>
+                                <option value="SR">Suriname</option>
+                                <option value="SJ">Svalbard and Jan Mayen</option>
+                                <option value="SZ">Swaziland</option>
+                                <option value="SE">Sweden</option>
+                                <option value="CH">Switzerland</option>
+                                <option value="SY">Syrian Arab Republic</option>
+                                <option value="TW">Taiwan, Province of China</option>
+                                <option value="TJ">Tajikistan</option>
+                                <option value="TZ">Tanzania, United Republic of</option>
+                                <option value="TH">Thailand</option>
+                                <option value="TL">Timor-Leste</option>
+                                <option value="TG">Togo</option>
+                                <option value="TK">Tokelau</option>
+                                <option value="TO">Tonga</option>
+                                <option value="TT">Trinidad and Tobago</option>
+                                <option value="TN">Tunisia</option>
+                                <option value="TR">Turkey</option>
+                                <option value="TM">Turkmenistan</option>
+                                <option value="TC">Turks and Caicos Islands</option>
+                                <option value="TV">Tuvalu</option>
+                                <option value="UG">Uganda</option>
+                                <option value="UA">Ukraine</option>
+                                <option value="AE">United Arab Emirates</option>
+                                <option value="GB">United Kingdom</option>
+                                <option value="US">United States</option>
+                                <option value="UM">United States Minor Outlying Islands</option>
+                                <option value="UY">Uruguay</option>
+                                <option value="UZ">Uzbekistan</option>
+                                <option value="VU">Vanuatu</option>
+                                <option value="VE">Venezuela, Bolivarian Republic of</option>
+                                <option value="VN">Viet Nam</option>
+                                <option value="VG">Virgin Islands, British</option>
+                                <option value="VI">Virgin Islands, U.S.</option>
+                                <option value="WF">Wallis and Futuna</option>
+                                <option value="EH">Western Sahara</option>
+                                <option value="YE">Yemen</option>
+                                <option value="ZM">Zambia</option>
+                                <option value="ZW">Zimbabwe</option>
+                            </select>
+                            <br />
+                        </div>
+                        <!--Ethnicity-->
+                        <div>
+                            <label for="participantEth" class="form-label mt-5">Ethnicity:</label>
+                            <select class="form-select" aria-label="Default select example" id="participantEth" onchange="ethOtherFunc()">
+                                <option selected disabled>Please select one</option>
+                                <option value="african">African</option>
+                                <option value="arab">Arab</option>
+                                <option value="caucasian">Caucasian</option>
+                                <option value="chinese">Chinese</option>
+                                <option value="hispanic">Hispanic</option>
+                                <option value="indian">Indian</option>
+                                <option value="latinx">Latino</option>
+                                <option value="malay">Malay</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <div id='participantEthOther' style='display: none'>
+                                <label for="participantEthOtherText" class="form-label">Please specify ethinicity:</label>
+                                <textarea class="form-control" id="participantEthOtherText" rows="1"></textarea>
+                            </div>
+                            <br />
+                        </div>
+                        <!--Sexuality-->
+                        <div>
+                            <label for="participantSexOrient" class="form-label mt-5">Sexual Orientation:</label>
+                            <select class="form-select" aria-label="Default select example" id="participantSexOrient" onchange="sexOrientOtherFunc()">
+                                <option selected disabled>Please select one</option>
+                                <option value="asexual">Asexual</option>
+                                <option value="bisexual">Bisexual</option>
+                                <option value="gay">Gay</option>
+                                <option value="heterosexual">Heterosexual</option>
+                                <option value="lesbian">Lesbian</option>
+                                <option value="pansexual">Pansexual</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <div id='participantSexOrientOther' style='display: none'>
+                                <label for="participantSexOrientOtherText" class="form-label">Please specify:</label>
+                                <textarea class="form-control" id="participantSexOrientOtherText" rows="1"></textarea>
+                            </div>
+                            <br />
+                        </div>
+                        <!--Romantic Orientation-->
+                        <div>
+                            <label for="participantRomOrient" class="form-label mt-5">Romantic Orientation:</label>
+                            <select class="form-select" aria-label="Default select example" id="participantRomOrient" onchange="romOrientOtherFunc()">
+                                <option selected disabled>Please select one</option>
+                                <option value="aromantic">Aromantic</option>
+                                <option value="biromantic">Biromantic</option>
+                                <option value="heteroromantic">Heteromantic</option>
+                                <option value="panromantic">Panromantic</option>
+                                <option value="male">Towards males</option>
+                                <option value="female">Towards females</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <div id='participantRomOrientOther' style='display: none'>
+                                <label for="participantRomOrientOtherText" class="form-label">Please specify:</label>
+                                <textarea class="form-control" id="participantRomOrientOtherText" rows="1"></textarea>
+                            </div>
+                            <br />
+                        </div>
+                        <!--Marital status-->
+                        <div>
+                            <label for="maritalStatus" class="form-label mt-5">Current marital status:</label>
+                            <select class="form-select" aria-label="Default select example" id='maritalStatus' onchange='maritalOtherFunc()'>
+                                <option selected disabled>Please select one</option>
+                                <option value="single">Single</option>
+                                <option value="romanticInvolvedEx">Romantically involved (exclusive)</option>
+                                <option value="romanticInvolvedNoEx">Romantically involved (not exclusive)</option>
+                                <option value="married">Married</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <div id='maritalOther' style='display: none'>
+                                <label for="maritalOtherText" class="form-label">Please specify status</label>
+                                <textarea class="form-control" id="maritalOtherText" rows="1"></textarea>
+                            </div>
+                            <br />
+                        </div>
+                        <!--Participant Gender and Sex-->
+                        <div>
+                            <label for="participantGender" class="form-label mt-5">Gender:</label>
+                            <select class="form-select" aria-label="Default select example" id='participantGender' onchange='participantGenderFunc()'>
+                                <option selected disabled>Please select one</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <div id='participantGenderOther' style='display: none'>
+                                <label for="participantGenderOtherText" class="form-label">Please specify your gender</label>
+                                <textarea class="form-control" id="participantGenderOtherText" rows="1"></textarea>
+                            </div>
+                            <label for="participantSex" class="form-label mt-5">Sex at birth:</label>
+                            <select class="form-select" aria-label="Default select example" id='participantSex' onchange="participantSexFunc()">
+                                <option selected disabled>Please select one</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <div id='participantSexOther' style='display: none'>
+                                <label for="participantSexOtherText" class="form-label">Please specify</label>
+                                <textarea class="form-control" id="participantSexOtherText" rows="1"></textarea>
+                            </div>
+                        </div>
+                        <div id="submitting">
+                            <button type="button" class="btn btn-primary" id="submitFormButton" onclick="submitForm()">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById("relationshipQuestionnaire").reset(); //This makes sure the page is cleaned if a participant close and reopen the page. This is done to prevent logic errors.
+        });
+        //Condition
+        var condNum = Math.floor(Math.random() * 2)
+        //Button and other scripts
+        function closefunc() {
+            document.getElementById('formIDOne').style.display = 'none';
+            document.getElementById('formIDTwo').style.display = 'none';
+            document.getElementById('formIDThree').style.display = 'none';
+            document.getElementById('formIDFour').style.display = 'none';
+            document.getElementById('formIDFive').style.display = 'none';
+            document.getElementById('formIDSix').style.display = 'none';
+            document.getElementById('formDemographics').style.display = 'none';
+            document.getElementById('consent').style.display = 'none';
+            document.getElementById('endPage').style.display = 'block';
+        }
+        function showSurvey() {
+            if (condNum == 1) {
+                document.getElementById('formIDOne').style.display = 'block';
+                document.getElementById('consent').style.display = 'none';
+            }
+            else {
+                document.getElementById('formIDThree').style.display = 'block';
+                document.getElementById('consent').style.display = 'none';
+            }
+        }
+
+        //Block 1 logic
+        //Presence of relationship
+        function rInfoPresenceFunc() {
+            if (document.getElementById('rInfoPresence').value == 'yes') {
+                //need to show more questions
+                document.getElementById('rInfoPresenceYes').style.display = 'block';
+                document.getElementById('rGraphs').style.display = 'block';
+            } else {
+                //do something if participant has never been involved in a relationship
+                document.getElementById('rInfoPresenceYes').style.display = 'none';
+                document.getElementById('rGraphs').style.display = 'block';
+            }
+        }
+        //Gender
+        function rGenderOtherFunc() {
+            if (document.getElementById('rInfoGender').value == 'other') {
+                document.getElementById('rGenderOther').style.display = 'block';
+            } else {
+                document.getElementById('rGenderOther').style.display = 'none';
+            }
+            console.log('test');
+        }
+        //End date
+        function rInfoDateFunc() {
+            if (document.getElementById('rInfoNow').value == 'yes') {
+                //You need the end date only for past relationship
+                document.getElementById('rInfoEndDate').style.display = 'none';
+            } else {
+                //show end date datepicker
+                document.getElementById('rInfoEndDate').style.display = 'block';
+            }
+        }
+        //Button for graphs
+        function rGraphsFunc() {
+            document.getElementById('formIDTwo').style.display = 'block';
+            document.getElementById('formIDOne').style.display = 'none';
+            if (condNum == 1) {
+                document.getElementById('blockOneNext').style.display = 'block';
+            } else {
+                document.getElementById('blockOneDem').style.display = 'block';
+            }
+
+        }
+        //Gender ideal
+        function rIdealFunc() {
+            if (document.getElementById('rIdealGender').value == 'other') {
+                document.getElementById('rIdealGenderOther').style.display = 'block';
+            } else {
+                document.getElementById('rIdealGenderOther').style.display = 'none';
+            }
+            console.log('test');
+        }
+
+        //Block 2 logic
+        //Presence of best friend(s)
+        function bfInfoPresenceFunc() {
+            if (document.getElementById('bfInfoPresence').value == 'yes') {
+                //need to show more questions
+                document.getElementById('bfInfoPresenceYes').style.display = 'block';
+                document.getElementById('bfGraphs').style.display = 'block';
+            } else {
+                document.getElementById('bfInfoPresenceYes').style.display = 'none';
+                document.getElementById('bfGraphs').style.display = 'block';
+            }
+        }
+        //Button for graphs
+        function bfOneGraphsFunc() {
+            document.getElementById('formIDFour').style.display = 'block';
+            document.getElementById('formIDThree').style.display = 'none';
+        }
+        //1st BF gender
+        function bfOneOtherFunc() {
+            if (document.getElementById('bfOneGender').value == 'other') {
+                document.getElementById('bfOneGenderOther').style.display = 'block';
+            } else {
+                document.getElementById('bfOneGenderOther').style.display = 'none';
+            }
+            console.log('test');
+        }
+        //2nd BF gender
+        function bfTwoOtherFunc() {
+            if (document.getElementById('bfTwoGender').value == 'other') {
+                document.getElementById('bfTwoOther').style.display = 'block';
+            } else {
+                document.getElementById('bfTwoOther').style.display = 'none';
+            }
+            console.log('test');
+        }
+        //3rd BF gender
+        function bfThreeOtherFunc() {
+            if (document.getElementById('bfThreeGender').value == 'other') {
+                document.getElementById('bfThreeOther').style.display = 'block';
+            } else {
+                document.getElementById('bfThreeOther').style.display = 'none';
+            }
+            console.log('test');
+        }
+        //Button between block 1 and 2
+        function showNext() {
+            document.getElementById('formIDTwoNext').style.display = 'none';
+            document.getElementById('bfThreeGenderSection').style.display = "none";
+            if (condNum == 1) {
+                document.getElementById('formIDThree').style.display = 'block';
+                document.getElementById('formIDTwo').style.display = 'none';
+            }
+            else {
+                document.getElementById('formIDOne').style.display = 'block';
+                document.getElementById('formIDSix').style.display = 'none';
+
+            }
+        }
+        function showDem() {
+            document.getElementById('formIDTwoNext').style.display = 'none';
+            document.getElementById('bfThreeGenderSection').style.display = "none";
+            if (condNum == 1) {
+                document.getElementById('formDemographics').style.display = 'block';
+                document.getElementById('formIDSix').style.display = 'none';
+            }
+            else {
+                document.getElementById('formDemographics').style.display = 'block';
+                document.getElementById('formIDTwo').style.display = 'none';
+            }
+        }
+
+        //Block 3 logic
+        //Marital status
+        function maritalOtherFunc() {
+            if (document.getElementById('maritalStatus').value == 'other') {
+                document.getElementById('maritalOther').style.display = 'block';
+            } else {
+                document.getElementById('maritalOther').style.display = 'none';
+            }
+        }
+        //Participant gender
+        function participantGenderFunc() {
+            if (document.getElementById('participantGender').value == 'other') {
+                document.getElementById('participantGenderOther').style.display = 'block';
+            } else (document.getElementById('participantGenderOther').style.display = 'none');
+
+        }
+        //Participant sex
+        function participantSexFunc() {
+            if (document.getElementById('participantSex').value == 'other') {
+                document.getElementById('participantSexOther').style.display = 'block';
+            } else (document.getElementById('participantSexOther').style.display = 'none');
+
+        }
+        //Ethnicity
+        function ethOtherFunc() {
+            if (document.getElementById('participantEth').value == 'other') {
+                document.getElementById('participantEthOther').style.display = 'block';
+            } else (document.getElementById('participantEthOther').style.display = 'none');
+
+        }
+        //Sexual orientation
+        function sexOrientOtherFunc() {
+            if (document.getElementById('participantSexOrient').value == 'other') {
+                document.getElementById('participantSexOrientOther').style.display = 'block';
+            } else (document.getElementById('participantSexOrientOther').style.display = 'none');
+
+        }
+        //Romantic orientation
+        function romOrientOtherFunc() {
+            if (document.getElementById('participantRomOrient').value == 'other') {
+                document.getElementById('participantRomOrientOther').style.display = 'block';
+            } else (document.getElementById('participantRomOrientOther').style.display = 'none');
+
+        }
+
+
+        //Pass data to php
+        function submitForm() {
+            document.getElementById("relationshipQuestionnaire").innerHTML = '<input type="hidden" name="rInfoDef" id="rInfoDef" value="' + (document.getElementById("rInfoDef").value) + '">' + '<input type="hidden" name="rInfoPresence" id="rInfoPresence" value="' + (document.getElementById("rInfoPresence").value) + '">' + '<input type="hidden" name="rInfoNow" id="rInfoNow" value="' + (document.getElementById("rInfoNow").value) + '">' + '<input type="hidden" name="rInfoLDR" id="rInfoLDR" value="' + (document.getElementById("rInfoLDR").value) + '">' + '<input type="hidden" name="rInfoGender" id="rInfoGender" value="' + (document.getElementById("rInfoGender").value) + '">' + '<input type="hidden" name="rStartDate" id="rStartDate" value="' + (document.getElementById("rStartDate").value) + '">' + '<input type="hidden" name="rEndDate" id="rEndDate" value="' + (document.getElementById("rEndDate").value) + '">' + '<input type="hidden" name="romComm" id="romComm" value="' + romuserimages['Commitment'] + '">' + '<input type="hidden" name="romCommInt" id="romCommInt" value="' + romuserimages['Common Interests'] + '">' + '<input type="hidden" name="romFriend" id="romFriend" value="' + romuserimages['Friendship'] + '">' + '<input type="hidden" name="romInt" id="romInt" value="' + romuserimages['Intimacy'] + '">' + '<input type="hidden" name="romPass" id="romPass" value="' + romuserimages['Passion'] + '">' + '<input type="hidden" name="romPat" id="romPat" value="' + romuserimages['Patience'] + '">' + '<input type="hidden" name="romRom" id="romRom" value="' + romuserimages['Romance'] + '">' + '<input type="hidden" name="romTru" id="romTru" value="' + romuserimages['Trust'] + '">' + '<input type="hidden" name="rIdealGender" id="rIdealGender" value="' + (document.getElementById("rIdealGender").value) + '">' + '<input type="hidden" name="bfInfoDef" id="bfInfoDef" value="' + (document.getElementById("bfInfoDef").value) + '">' + '<input type="hidden" name="bfInfoPresence" id="bfInfoPresence" value="' + (document.getElementById("bfInfoPresence").value) + '">' + '<input type="hidden" name="bfNum" id="bfNum" value="' + (document.getElementById("bfNum").value) + '">' + '<input type="hidden" name="bfCountryRes" id="bfCountryRes" value="' + (document.getElementById("bfCountryRes").value) + '">' + '<input type="hidden" name="bfCityRes" id="bfCityRes" value="' + (document.getElementById("bfCityRes").value) + '">' + '<input type="hidden" name="bfOutRes" id="bfOutRes" value="' + (document.getElementById("bfOutRes").value) + '">' + '<input type="hidden" name="bfOneCheck" id="bfOneCheck" value="' + (document.getElementById("bfOneCheck").value) + '">' + '<input type="hidden" name="bfOneComm" id="bfOneComm" value="' + bfOneuserimages['Commitment'] + '">' + '<input type="hidden" name="bfOneCommInt" id="bfOneCommInt" value="' + bfOneuserimages['Common Interests'] + '">' + '<input type="hidden" name="bfOneFriend" id="bfOneFriend" value="' + bfOneuserimages['Friendship'] + '">' + '<input type="hidden" name="bfOneInt" id="bfOneInt" value="' + bfOneuserimages['Intimacy'] + '">' + '<input type="hidden" name="bfOnePass" id="bfOnePass" value="' + bfOneuserimages['Passion'] + '">' + '<input type="hidden" name="bfOnePat" id="bfOnePat" value="' + bfOneuserimages['Patience'] + '">' + '<input type="hidden" name="bfOneRom" id="bfOneRom" value="' + bfOneuserimages['Romance'] + '">' + '<input type="hidden" name="bfOneTru" id="bfOneTru" value="' + bfOneuserimages['Trust'] + '">' + '<input type="hidden" name="bfOneGender" id="bfOneGender" value="' + (document.getElementById("bfOneGender").value) + '">' + '<input type="hidden" name="bfTwoCheck" id="bfTwoCheck" value="' + (document.getElementById("bfTwoCheck").value) + '">' + '<input type="hidden" name="bfTwoStat" id="bfTwoStat" value="' + (document.getElementById("bfTwoStat").value) + '">' + '<input type="hidden" name="bfTwoComm" id="bfTwoComm" value="' + bfTwouserimages['Commitment'] + '">' + '<input type="hidden" name="bfTwoCommInt" id="bfTwoCommInt" value="' + bfTwouserimages['Common Interests'] + '">' + '<input type="hidden" name="bfTwoFriend" id="bfTwoFriend" value="' + bfTwouserimages['Friendship'] + '">' + '<input type="hidden" name="bfTwoInt" id="bfTwoInt" value="' + bfTwouserimages['Intimacy'] + '">' + '<input type="hidden" name="bfTwoPass" id="bfTwoPass" value="' + bfTwouserimages['Passion'] + '">' + '<input type="hidden" name="bfTwoPat" id="bfTwoPat" value="' + bfTwouserimages['Patience'] + '">' + '<input type="hidden" name="bfTwoRom" id="bfTwoRom" value="' + bfTwouserimages['Romance'] + '">' + '<input type="hidden" name="bfTwoTru" id="bfTwoTru" value="' + bfTwouserimages['Trust'] + '">' + '<input type="hidden" name="bfTwoGender" id="bfTwoGender" value="' + (document.getElementById("bfTwoGender").value) + '">' + '<input type="hidden" name="bfThreeCheck" id="bfThreeCheck" value="' + (document.getElementById("bfThreeCheck").value) + '">' + '<input type="hidden" name="bfThreeComm" id="bfThreeComm" value="' + bfThreeuserimages['Commitment'] + '">' + '<input type="hidden" name="bfThreeCommInt" id="bfThreeCommInt" value="' + bfThreeuserimages['Common Interests'] + '">' + '<input type="hidden" name="bfThreeFriend" id="bfThreeFriend" value="' + bfThreeuserimages['Friendship'] + '">' + '<input type="hidden" name="bfThreeInt" id="bfThreeInt" value="' + bfThreeuserimages['Intimacy'] + '">' + '<input type="hidden" name="bfThreePass" id="bfThreePass" value="' + bfThreeuserimages['Passion'] + '">' + '<input type="hidden" name="bfThreePat" id="bfThreePat" value="' + bfThreeuserimages['Patience'] + '">' + '<input type="hidden" name="bfThreeRom" id="bfThreeRom" value="' + bfThreeuserimages['Romance'] + '">' + '<input type="hidden" name="bfThreeTru" id="bfThreeTru" value="' + bfThreeuserimages['Trust'] + '">' + '<input type="hidden" name="bfThreeGender" id="bfThreeGender" value="' + (document.getElementById("bfThreeGender").value) + '">' + '<input type="hidden" name="age" id="age" value="' + (document.getElementById("age").value) + '">' + '<input type="hidden" name="birthplace" id="birthplace" value="' + (document.getElementById("birthplace").value) + '">' + '<input type="hidden" name="res" id="res" value="' + (document.getElementById("res").value) + '">' + '<input type="hidden" name="participantEth" id="participantEth" value="' + (document.getElementById("participantEth").value) + '">' + '<input type="hidden" name="participantSexOrient" id="participantSexOrient" value="' + (document.getElementById("participantSexOrient").value) + '">' + '<input type="hidden" name="participantRomOrient" id="participantRomOrient" value="' + (document.getElementById("participantRomOrient").value) + '">' + '<input type="hidden" name="maritalStatus" id="maritalStatus" value="' + (document.getElementById("maritalStatus").value) + '">' + '<input type="hidden" name="participantGender" id="participantGender" value="' + (document.getElementById("participantGender").value) + '">' + '<input type="hidden" name="participantSex" id="participantSex" value="' + (document.getElementById("participantSex").value) + '">' + '<input type="hidden" name="partnerGenderOtherText" id="partnerGenderOtherText" value="' + (document.getElementById("partnerGenderOtherText").value) + '">' + '<input type="hidden" name="rIdealGenderText" id="rIdealGenderText" value="' + (document.getElementById("rIdealGenderText").value) + '">' + '<input type="hidden" name="bfOneGenderOtherText" id="bfOneGenderOtherText" value="' + (document.getElementById("bfOneGenderOtherText").value) + '">' + '<input type="hidden" name="bfTwoGenderOtherText" id="bfTwoGenderOtherText" value="' + (document.getElementById("bfTwoGenderOtherText").value) + '">' + '<input type="hidden" name="bfThreeGenderOtherText" id="bfThreeGenderOtherText" value="' + (document.getElementById("bfThreeGenderOtherText").value) + '">' + '<input type="hidden" name="participantEthOtherText" id="participantEthOtherText" value="' + (document.getElementById("participantEthOtherText").value) + '">' + '<input type="hidden" name="participantSexOrientOtherText" id="participantSexOrientOtherText" value="' + (document.getElementById("participantSexOrientOtherText").value) + '">' + '<input type="hidden" name="participantRomOrientOtherText" id="participantRomOrientOtherText" value="' + (document.getElementById("participantRomOrientOtherText").value) + '">' + '<input type="hidden" name="maritalOtherText" id="maritalOtherText" value="' + (document.getElementById("maritalOtherText").value) + '">' + '<input type="hidden" name="participantGenderOtherText" id="participantGenderOtherText" value="' + (document.getElementById("participantGenderOtherText").value) + '">' + '<input type="hidden" name="participantSexOtherText" id="participantSexOtherText" value="' + (document.getElementById("participantSexOtherText").value) + '">';
+            document.forms["relationshipQuestionnaire"].submit();
+        }
+    </script>
+</body>
+</html>

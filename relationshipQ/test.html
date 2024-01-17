@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <form id="relationshipQuestionnaire" action="saveRBFform.php" method="post">
+        <div id="rInfoBasic">
+            <label for="r_Info_Def" class="form-label mt-5">What does "romantic partner" mean to you? (Try to be as detailed as possible)</label>
+            <br>
+            <textarea class="form-control" textarea name="R_Info_Def" style="width:80%;height:100px;" id='rInfoDef'></textarea>
+
+            <label for="R_Info_Presence" class="form-label mt-5"> Have you been in a romantic relationship before (currently or in the past)?</label>
+            <br />
+            <select class="form-select" aria-label="Default select example" id='rInfoPresence' onchange='rInfoPresenceFunc()'>
+                <option selected disabled>Please select one</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+        </div>
+        <div id="submitting">
+            <button type="button" class="btn btn-primary" id="submitFormButton" onclick="submitForm()">Submit</button>
+        </div>
+    </form>
+
+    <script>
+        function submitForm() {
+
+            document.getElementById("relationshipQuestionnaire").innerHTML =
+                '<input type="hidden" name="rInfoDef" id="rInfoDef" value="' + (document.getElementById("rInfoDef").value) + '">' +
+                '<input type="hidden" name="rInfoPresence" id="rInfoPresence" value="' + (document.getElementById("rInfoPresence").value) + '">'
+                ;
+            document.forms["relationshipQuestionnaire"].submit();
+        }
+    </script>
+</body>
+</html>
